@@ -1,0 +1,6 @@
+framework module YJShareSDK {
+  umbrella header "YJShareSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,13 @@
+${PODS_ROOT}/Target Support Files/Pods-TTYY/Pods-TTYY-resources.sh
+${PODS_ROOT}/AliAuthSDK/AlibabaAuthSDK.framework/AlibabaAuthSDK.bundle
+${PODS_ROOT}/AliLinkPartnerSDK/AlibcLinkPartnerSDK.framework/SmartLink.bundle
+${PODS_ROOT}/AlibcTradeSDK/AlibcTradeBiz.framework/NBResource.bundle
+${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle
+${PODS_ROOT}/SensorsAnalyticsSDK/SensorsAnalyticsSDK/SensorsAnalyticsSDK.bundle
+${PODS_ROOT}/SensorsFocus/SensorsFocus/SensorsFocus.bundle
+${PODS_ROOT}/WindVane/WindVaneBasic.framework/Resources/WindVaneBasic.bundle
+${PODS_ROOT}/WindVane/WindVaneBasic.framework/Resources/NebulaWK.bundle
+${PODS_ROOT}/WindVane/WindVaneCore.framework/WindVaneBasic.bundle
+${PODS_ROOT}/WindVane/WindVaneCore.framework/NebulaWK.bundle
+${PODS_ROOT}/YJShareSDK/YJShareSDK/QQSDK/TencentOpenApi_IOS_Bundle.bundle
+${PODS_ROOT}/YJShareSDK/YJShareSDK/libWeiboSDK/WeiboSDK.bundle

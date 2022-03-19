@@ -1,0 +1,954 @@
+PODS:
+  - AesGcm (1.2.2)
+  - AFNetworking (2.6.3):
+    - AFNetworking/NSURLConnection (= 2.6.3)
+    - AFNetworking/NSURLSession (= 2.6.3)
+    - AFNetworking/Reachability (= 2.6.3)
+    - AFNetworking/Security (= 2.6.3)
+    - AFNetworking/Serialization (= 2.6.3)
+    - AFNetworking/UIKit (= 2.6.3)
+  - AFNetworking/NSURLConnection (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.6.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.6.3)
+  - AFNetworking/Security (2.6.3)
+  - AFNetworking/Serialization (2.6.3)
+  - AFNetworking/UIKit (2.6.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - Alamofire (5.4.3)
+  - AliAuthSDK (1.1.0.42-BC3)
+  - AlibcTradeSDK (4.0.1.15)
+  - AliLinkPartnerSDK (4.0.0.24)
+  - BaseModule/Base (4.25.3):
+    - AesGcm
+    - AFNetworking
+    - Alamofire
+    - BaseModule/Base/Category (= 4.25.3)
+    - BaseModule/Base/Define (= 4.25.3)
+    - BaseModule/Base/no-arc (= 4.25.3)
+    - BaseModule/Base/Tool (= 4.25.3)
+    - BaseModule/Base/View (= 4.25.3)
+    - Cache
+    - KakaJSON
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - RxCocoa
+    - RxSwift
+    - SDWebImage
+    - SensorsAnalyticsSDK (= 3.0.0)
+    - SnapKit
+    - SQLite.swift
+    - UMAPM
+    - UMCommon (= 7.2.5)
+    - UMDevice
+    - YJEncryptSwift
+    - YYCache
+    - YYImage/WebP
+    - YYModel
+    - YYWebImage
+  - BaseModule/Base/Category (4.25.3):
+    - AesGcm
+    - AFNetworking
+    - Alamofire
+    - BaseModule/Base/Category/OC (= 4.25.3)
+    - BaseModule/Base/Category/Swift (= 4.25.3)
+    - Cache
+    - KakaJSON
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - RxCocoa
+    - RxSwift
+    - SDWebImage
+    - SensorsAnalyticsSDK (= 3.0.0)
+    - SnapKit
+    - SQLite.swift
+    - UMAPM
+    - UMCommon (= 7.2.5)
+    - UMDevice
+    - YJEncryptSwift
+    - YYCache
+    - YYImage/WebP
+    - YYModel
+    - YYWebImage
+  - BaseModule/Base/Category/OC (4.25.3):
+    - AesGcm
+    - AFNetworking
+    - Alamofire
+    - Cache
+    - KakaJSON
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - RxCocoa
+    - RxSwift
+    - SDWebImage
+    - SensorsAnalyticsSDK (= 3.0.0)
+    - SnapKit
+    - SQLite.swift
+    - UMAPM
+    - UMCommon (= 7.2.5)
+    - UMDevice
+    - YJEncryptSwift
+    - YYCache
+    - YYImage/WebP
+    - YYModel
+    - YYWebImage
+  - BaseModule/Base/Category/Swift (4.25.3):
+    - AesGcm
+    - AFNetworking
+    - Alamofire
+    - Cache
+    - KakaJSON
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - RxCocoa
+    - RxSwift
+    - SDWebImage
+    - SensorsAnalyticsSDK (= 3.0.0)
+    - SnapKit
+    - SQLite.swift
+    - UMAPM
+    - UMCommon (= 7.2.5)
+    - UMDevice
+    - YJEncryptSwift
+    - YYCache
+    - YYImage/WebP
+    - YYModel
+    - YYWebImage
+  - BaseModule/Base/Define (4.25.3):
+    - AesGcm
+    - AFNetworking
+    - Alamofire
+    - BaseModule/Base/Define/OC (= 4.25.3)
+    - BaseModule/Base/Define/Swift (= 4.25.3)
+    - Cache
+    - KakaJSON
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - RxCocoa
+    - RxSwift
+    - SDWebImage
+    - SensorsAnalyticsSDK (= 3.0.0)
+    - SnapKit
+    - SQLite.swift
+    - UMAPM
+    - UMCommon (= 7.2.5)
+    - UMDevice
+    - YJEncryptSwift
+    - YYCache
+    - YYImage/WebP
+    - YYModel
+    - YYWebImage
+  - BaseModule/Base/Define/OC (4.25.3):
+    - AesGcm
+    - AFNetworking
+    - Alamofire
+    - Cache
+    - KakaJSON
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - RxCocoa
+    - RxSwift
+    - SDWebImage
+    - SensorsAnalyticsSDK (= 3.0.0)
+    - SnapKit
+    - SQLite.swift
+    - UMAPM
+    - UMCommon (= 7.2.5)
+    - UMDevice
+    - YJEncryptSwift
+    - YYCache
+    - YYImage/WebP
+    - YYModel
+    - YYWebImage
+  - BaseModule/Base/Define/Swift (4.25.3):
+    - AesGcm
+    - AFNetworking
+    - Alamofire
+    - Cache
+    - KakaJSON
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - RxCocoa
+    - RxSwift
+    - SDWebImage
+    - SensorsAnalyticsSDK (= 3.0.0)
+    - SnapKit
+    - SQLite.swift
+    - UMAPM
+    - UMCommon (= 7.2.5)
+    - UMDevice
+    - YJEncryptSwift
+    - YYCache
+    - YYImage/WebP
+    - YYModel
+    - YYWebImage
+  - BaseModule/Base/no-arc (4.25.3):
+    - AesGcm
+    - AFNetworking
+    - Alamofire
+    - Cache
+    - KakaJSON
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - RxCocoa
+    - RxSwift
+    - SDWebImage
+    - SensorsAnalyticsSDK (= 3.0.0)
+    - SnapKit
+    - SQLite.swift
+    - UMAPM
+    - UMCommon (= 7.2.5)
+    - UMDevice
+    - YJEncryptSwift
+    - YYCache
+    - YYImage/WebP
+    - YYModel
+    - YYWebImage
+  - BaseModule/Base/Tool (4.25.3):
+    - AesGcm
+    - AFNetworking
+    - Alamofire
+    - BaseModule/Base/Tool/BI (= 4.25.3)
+    - BaseModule/Base/Tool/DataBase (= 4.25.3)
+    - BaseModule/Base/Tool/FBEncryptorAES (= 4.25.3)
+    - BaseModule/Base/Tool/Idfa (= 4.25.3)
+    - BaseModule/Base/Tool/ImagePicker (= 4.25.3)
+    - BaseModule/Base/Tool/Language (= 4.25.3)
+    - BaseModule/Base/Tool/Network (= 4.25.3)
+    - BaseModule/Base/Tool/QRCode (= 4.25.3)
+    - Cache
+    - KakaJSON
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - RxCocoa
+    - RxSwift
+    - SDWebImage
+    - SensorsAnalyticsSDK (= 3.0.0)
+    - SnapKit
+    - SQLite.swift
+    - UMAPM
+    - UMCommon (= 7.2.5)
+    - UMDevice
+    - YJEncryptSwift
+    - YYCache
+    - YYImage/WebP
+    - YYModel
+    - YYWebImage
+  - BaseModule/Base/Tool/BI (4.25.3):
+    - AesGcm
+    - AFNetworking
+    - Alamofire
+    - Cache
+    - KakaJSON
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - RxCocoa
+    - RxSwift
+    - SDWebImage
+    - SensorsAnalyticsSDK (= 3.0.0)
+    - SnapKit
+    - SQLite.swift
+    - UMAPM
+    - UMCommon (= 7.2.5)
+    - UMDevice
+    - YJEncryptSwift
+    - YYCache
+    - YYImage/WebP
+    - YYModel
+    - YYWebImage
+  - BaseModule/Base/Tool/DataBase (4.25.3):
+    - AesGcm
+    - AFNetworking
+    - Alamofire
+    - Cache
+    - KakaJSON
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - RxCocoa
+    - RxSwift
+    - SDWebImage
+    - SensorsAnalyticsSDK (= 3.0.0)
+    - SnapKit
+    - SQLite.swift
+    - UMAPM
+    - UMCommon (= 7.2.5)
+    - UMDevice
+    - YJEncryptSwift
+    - YYCache
+    - YYImage/WebP
+    - YYModel
+    - YYWebImage
+  - BaseModule/Base/Tool/FBEncryptorAES (4.25.3):
+    - AesGcm
+    - AFNetworking
+    - Alamofire
+    - Cache
+    - KakaJSON
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - RxCocoa
+    - RxSwift
+    - SDWebImage
+    - SensorsAnalyticsSDK (= 3.0.0)
+    - SnapKit
+    - SQLite.swift
+    - UMAPM
+    - UMCommon (= 7.2.5)
+    - UMDevice
+    - YJEncryptSwift
+    - YYCache
+    - YYImage/WebP
+    - YYModel
+    - YYWebImage
+  - BaseModule/Base/Tool/Idfa (4.25.3):
+    - AesGcm
+    - AFNetworking
+    - Alamofire
+    - Cache
+    - KakaJSON
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - RxCocoa
+    - RxSwift
+    - SDWebImage
+    - SensorsAnalyticsSDK (= 3.0.0)
+    - SnapKit
+    - SQLite.swift
+    - UMAPM
+    - UMCommon (= 7.2.5)
+    - UMDevice
+    - YJEncryptSwift
+    - YYCache
+    - YYImage/WebP
+    - YYModel
+    - YYWebImage
+  - BaseModule/Base/Tool/ImagePicker (4.25.3):
+    - AesGcm
+    - AFNetworking
+    - Alamofire
+    - Cache
+    - KakaJSON
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - RxCocoa
+    - RxSwift
+    - SDWebImage
+    - SensorsAnalyticsSDK (= 3.0.0)
+    - SnapKit
+    - SQLite.swift
+    - UMAPM
+    - UMCommon (= 7.2.5)
+    - UMDevice
+    - YJEncryptSwift
+    - YYCache
+    - YYImage/WebP
+    - YYModel
+    - YYWebImage
+  - BaseModule/Base/Tool/Language (4.25.3):
+    - AesGcm
+    - AFNetworking
+    - Alamofire
+    - Cache
+    - KakaJSON
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - RxCocoa
+    - RxSwift
+    - SDWebImage
+    - SensorsAnalyticsSDK (= 3.0.0)
+    - SnapKit
+    - SQLite.swift
+    - UMAPM
+    - UMCommon (= 7.2.5)
+    - UMDevice
+    - YJEncryptSwift
+    - YYCache
+    - YYImage/WebP
+    - YYModel
+    - YYWebImage
+  - BaseModule/Base/Tool/Network (4.25.3):
+    - AesGcm
+    - AFNetworking
+    - Alamofire
+    - BaseModule/Base/Tool/Network/Category (= 4.25.3)
+    - BaseModule/Base/Tool/Network/Model (= 4.25.3)
+    - BaseModule/Base/Tool/Network/Service (= 4.25.3)
+    - BaseModule/Base/Tool/Network/Tools (= 4.25.3)
+    - Cache
+    - KakaJSON
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - RxCocoa
+    - RxSwift
+    - SDWebImage
+    - SensorsAnalyticsSDK (= 3.0.0)
+    - SnapKit
+    - SQLite.swift
+    - UMAPM
+    - UMCommon (= 7.2.5)
+    - UMDevice
+    - YJEncryptSwift
+    - YYCache
+    - YYImage/WebP
+    - YYModel
+    - YYWebImage
+  - BaseModule/Base/Tool/Network/Category (4.25.3):
+    - AesGcm
+    - AFNetworking
+    - Alamofire
+    - Cache
+    - KakaJSON
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - RxCocoa
+    - RxSwift
+    - SDWebImage
+    - SensorsAnalyticsSDK (= 3.0.0)
+    - SnapKit
+    - SQLite.swift
+    - UMAPM
+    - UMCommon (= 7.2.5)
+    - UMDevice
+    - YJEncryptSwift
+    - YYCache
+    - YYImage/WebP
+    - YYModel
+    - YYWebImage
+  - BaseModule/Base/Tool/Network/Model (4.25.3):
+    - AesGcm
+    - AFNetworking
+    - Alamofire
+    - Cache
+    - KakaJSON
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - RxCocoa
+    - RxSwift
+    - SDWebImage
+    - SensorsAnalyticsSDK (= 3.0.0)
+    - SnapKit
+    - SQLite.swift
+    - UMAPM
+    - UMCommon (= 7.2.5)
+    - UMDevice
+    - YJEncryptSwift
+    - YYCache
+    - YYImage/WebP
+    - YYModel
+    - YYWebImage
+  - BaseModule/Base/Tool/Network/Service (4.25.3):
+    - AesGcm
+    - AFNetworking
+    - Alamofire
+    - BaseModule/Base/Tool/Network/Service/Base (= 4.25.3)
+    - Cache
+    - KakaJSON
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - RxCocoa
+    - RxSwift
+    - SDWebImage
+    - SensorsAnalyticsSDK (= 3.0.0)
+    - SnapKit
+    - SQLite.swift
+    - UMAPM
+    - UMCommon (= 7.2.5)
+    - UMDevice
+    - YJEncryptSwift
+    - YYCache
+    - YYImage/WebP
+    - YYModel
+    - YYWebImage
+  - BaseModule/Base/Tool/Network/Service/Base (4.25.3):
+    - AesGcm
+    - AFNetworking
+    - Alamofire
+    - Cache
+    - KakaJSON
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - RxCocoa
+    - RxSwift
+    - SDWebImage
+    - SensorsAnalyticsSDK (= 3.0.0)
+    - SnapKit
+    - SQLite.swift
+    - UMAPM
+    - UMCommon (= 7.2.5)
+    - UMDevice
+    - YJEncryptSwift
+    - YYCache
+    - YYImage/WebP
+    - YYModel
+    - YYWebImage
+  - BaseModule/Base/Tool/Network/Tools (4.25.3):
+    - AesGcm
+    - AFNetworking
+    - Alamofire
+    - Cache
+    - KakaJSON
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - RxCocoa
+    - RxSwift
+    - SDWebImage
+    - SensorsAnalyticsSDK (= 3.0.0)
+    - SnapKit
+    - SQLite.swift
+    - UMAPM
+    - UMCommon (= 7.2.5)
+    - UMDevice
+    - YJEncryptSwift
+    - YYCache
+    - YYImage/WebP
+    - YYModel
+    - YYWebImage
+  - BaseModule/Base/Tool/QRCode (4.25.3):
+    - AesGcm
+    - AFNetworking
+    - Alamofire
+    - Cache
+    - KakaJSON
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - RxCocoa
+    - RxSwift
+    - SDWebImage
+    - SensorsAnalyticsSDK (= 3.0.0)
+    - SnapKit
+    - SQLite.swift
+    - UMAPM
+    - UMCommon (= 7.2.5)
+    - UMDevice
+    - YJEncryptSwift
+    - YYCache
+    - YYImage/WebP
+    - YYModel
+    - YYWebImage
+  - BaseModule/Base/View (4.25.3):
+    - AesGcm
+    - AFNetworking
+    - Alamofire
+    - BaseModule/Base/View/Base (= 4.25.3)
+    - BaseModule/Base/View/Category (= 4.25.3)
+    - BaseModule/Base/View/Control (= 4.25.3)
+    - BaseModule/Base/View/Swift (= 4.25.3)
+    - Cache
+    - KakaJSON
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - RxCocoa
+    - RxSwift
+    - SDWebImage
+    - SensorsAnalyticsSDK (= 3.0.0)
+    - SnapKit
+    - SQLite.swift
+    - UMAPM
+    - UMCommon (= 7.2.5)
+    - UMDevice
+    - YJEncryptSwift
+    - YYCache
+    - YYImage/WebP
+    - YYModel
+    - YYWebImage
+  - BaseModule/Base/View/Base (4.25.3):
+    - AesGcm
+    - AFNetworking
+    - Alamofire
+    - BaseModule/Base/View/Base/Private (= 4.25.3)
+    - Cache
+    - KakaJSON
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - RxCocoa
+    - RxSwift
+    - SDWebImage
+    - SensorsAnalyticsSDK (= 3.0.0)
+    - SnapKit
+    - SQLite.swift
+    - UMAPM
+    - UMCommon (= 7.2.5)
+    - UMDevice
+    - YJEncryptSwift
+    - YYCache
+    - YYImage/WebP
+    - YYModel
+    - YYWebImage
+  - BaseModule/Base/View/Base/Private (4.25.3):
+    - AesGcm
+    - AFNetworking
+    - Alamofire
+    - Cache
+    - KakaJSON
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - RxCocoa
+    - RxSwift
+    - SDWebImage
+    - SensorsAnalyticsSDK (= 3.0.0)
+    - SnapKit
+    - SQLite.swift
+    - UMAPM
+    - UMCommon (= 7.2.5)
+    - UMDevice
+    - YJEncryptSwift
+    - YYCache
+    - YYImage/WebP
+    - YYModel
+    - YYWebImage
+  - BaseModule/Base/View/Category (4.25.3):
+    - AesGcm
+    - AFNetworking
+    - Alamofire
+    - Cache
+    - KakaJSON
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - RxCocoa
+    - RxSwift
+    - SDWebImage
+    - SensorsAnalyticsSDK (= 3.0.0)
+    - SnapKit
+    - SQLite.swift
+    - UMAPM
+    - UMCommon (= 7.2.5)
+    - UMDevice
+    - YJEncryptSwift
+    - YYCache
+    - YYImage/WebP
+    - YYModel
+    - YYWebImage
+  - BaseModule/Base/View/Control (4.25.3):
+    - AesGcm
+    - AFNetworking
+    - Alamofire
+    - Cache
+    - KakaJSON
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - RxCocoa
+    - RxSwift
+    - SDWebImage
+    - SensorsAnalyticsSDK (= 3.0.0)
+    - SnapKit
+    - SQLite.swift
+    - UMAPM
+    - UMCommon (= 7.2.5)
+    - UMDevice
+    - YJEncryptSwift
+    - YYCache
+    - YYImage/WebP
+    - YYModel
+    - YYWebImage
+  - BaseModule/Base/View/Swift (4.25.3):
+    - AesGcm
+    - AFNetworking
+    - Alamofire
+    - Cache
+    - KakaJSON
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - RxCocoa
+    - RxSwift
+    - SDWebImage
+    - SensorsAnalyticsSDK (= 3.0.0)
+    - SnapKit
+    - SQLite.swift
+    - UMAPM
+    - UMCommon (= 7.2.5)
+    - UMDevice
+    - YJEncryptSwift
+    - YYCache
+    - YYImage/WebP
+    - YYModel
+    - YYWebImage
+  - BaseModule/TTYY (4.25.3):
+    - BaseModule/Base
+    - BaseModule/TTYY/Define (= 4.25.3)
+  - BaseModule/TTYY/Define (4.25.3):
+    - BaseModule/Base
+  - BCUserTrack (5.2.0.18-appkeys):
+    - UTDID
+  - Bugly (2.5.90)
+  - Cache (5.3.0)
+  - GTExtensionSDK (2.5.3)
+  - GTSDK (2.6.0.0)
+  - KakaJSON (1.1.2)
+  - LookinServer (1.0.3)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJExtension (3.4.0)
+  - MJRefresh (3.7.2)
+  - mtopSDK (3.0.0.3-BC)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - RxCocoa (6.2.0):
+    - RxRelay (= 6.2.0)
+    - RxSwift (= 6.2.0)
+  - RxRelay (6.2.0):
+    - RxSwift (= 6.2.0)
+  - RxSwift (6.2.0)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - securityGuard (5.4.191)
+  - SensorsAnalyticsSDK (3.0.0):
+    - SensorsAnalyticsSDK/Core (= 3.0.0)
+  - SensorsAnalyticsSDK/AutoTrack (3.0.0):
+    - SensorsAnalyticsSDK/Common
+  - SensorsAnalyticsSDK/Common (3.0.0)
+  - SensorsAnalyticsSDK/Core (3.0.0):
+    - SensorsAnalyticsSDK/Common
+    - SensorsAnalyticsSDK/Visualized
+  - SensorsAnalyticsSDK/Exception (3.0.0):
+    - SensorsAnalyticsSDK/Common
+  - SensorsAnalyticsSDK/Visualized (3.0.0):
+    - SensorsAnalyticsSDK/AutoTrack
+  - SensorsFocus (0.4.3):
+    - SensorsAnalyticsSDK (>= 2.1.6)
+  - SnapKit (5.0.1)
+  - SQLite.swift (0.13.1):
+    - SQLite.swift/standard (= 0.13.1)
+  - SQLite.swift/standard (0.13.1)
+  - tingyunApp (2.14.11)
+  - UMAPM (1.1.1)
+  - UMCommon (7.2.5):
+    - UMDevice
+  - UMDevice (1.1.0)
+  - UTDID (1.5.0.91)
+  - WindVane (8.5.0.46-bc11):
+    - WindVane/Basic (= 8.5.0.46-bc11)
+    - WindVane/Core (= 8.5.0.46-bc11)
+    - WindVane/WindVane (= 8.5.0.46-bc11)
+  - WindVane/Basic (8.5.0.46-bc11)
+  - WindVane/Core (8.5.0.46-bc11)
+  - WindVane/WindVane (8.5.0.46-bc11)
+  - YJEncryptSwift (1.0):
+    - AesGcm (~> 1.2.2)
+  - YJShareSDK (1.0):
+    - YJShareSDK/libWeiboSDK (= 1.0)
+    - YJShareSDK/QQSDK (= 1.0)
+    - YJShareSDK/ThirdLoginSDK (= 1.0)
+    - YJShareSDK/WeChatSDK (= 1.0)
+  - YJShareSDK/libWeiboSDK (1.0)
+  - YJShareSDK/QQSDK (1.0)
+  - YJShareSDK/ThirdLoginSDK (1.0)
+  - YJShareSDK/WeChatSDK (1.0)
+  - YJSWebModule (4.25.0):
+    - BaseModule/Base
+    - YJShareSDK
+    - YJSWebModule/Extension (= 4.25.0)
+    - YJSWebModule/WebContent (= 4.25.0)
+    - YJSWebModule/WebUI (= 4.25.0)
+  - YJSWebModule/Extension (4.25.0):
+    - BaseModule/Base
+    - YJShareSDK
+  - YJSWebModule/WebContent (4.25.0):
+    - BaseModule/Base
+    - YJShareSDK
+  - YJSWebModule/WebUI (4.25.0):
+    - BaseModule/Base
+    - YJShareSDK
+  - YYCache (1.0.4)
+  - YYImage (1.0.4):
+    - YYImage/Core (= 1.0.4)
+  - YYImage/Core (1.0.4)
+  - YYImage/WebP (1.0.4):
+    - YYImage/Core
+  - YYModel (1.0.4)
+  - YYWebImage (1.0.5):
+    - YYCache
+    - YYImage
+
+DEPENDENCIES:
+  - AesGcm (~> 1.2.2)
+  - AFNetworking (= 2.6.3)
+  - Alamofire (~> 5.4.3)
+  - AliAuthSDK (= 1.1.0.42-BC3)
+  - AlibcTradeSDK (= 4.0.1.15)
+  - AliLinkPartnerSDK (= 4.0.0.24)
+  - BaseModule/TTYY (from `https://gitlab.ushaqi.com/iOS/BaseModule.git`, commit `51a4de0e6aa2169896a5c0c643be118984f715b0`)
+  - BCUserTrack (= 5.2.0.18-appkeys)
+  - Bugly (= 2.5.90)
+  - Cache (~> 5.3.0)
+  - GTExtensionSDK (= 2.5.3)
+  - GTSDK (= 2.6.0.0)
+  - KakaJSON (~> 1.1.2)
+  - LookinServer
+  - MBProgressHUD (= 1.2.0)
+  - MJRefresh (~> 3.7.2)
+  - mtopSDK (= 3.0.0.3-BC)
+  - ReactiveCocoa (~> 2.0)
+  - SDWebImage (= 3.8.2)
+  - securityGuard (= 5.4.191)
+  - SensorsAnalyticsSDK (= 3.0.0)
+  - SensorsAnalyticsSDK/Exception
+  - SensorsFocus (~> 0.4.1)
+  - SnapKit (~> 5.0.1)
+  - tingyunApp (= 2.14.11)
+  - UMAPM (= 1.1.1)
+  - UMCommon (= 7.2.5)
+  - UMDevice (= 1.1.0)
+  - UTDID (= 1.5.0.91)
+  - WindVane (= 8.5.0.46-bc11)
+  - YJEncryptSwift (from `https://gitlab.ushaqi.com/iOS/yjencrypt.git`)
+  - YJShareSDK (from `https://gitlab.ushaqi.com/iOS/yjsharesdk.git`, branch `feature/ttyy`)
+  - YJSWebModule (from `https://gitlab.ushaqi.com/iOS/YJSWebModule.git`, branch `ttyy`)
+  - YYCache (= 1.0.4)
+  - YYWebImage (= 1.0.5)
+
+SPEC REPOS:
+  http://repo.baichuan-ios.taobao.com/baichuanSDK/AliBCSpecs.git:
+    - AliAuthSDK
+    - AlibcTradeSDK
+    - AliLinkPartnerSDK
+    - BCUserTrack
+    - mtopSDK
+    - securityGuard
+    - UTDID
+    - WindVane
+  https://github.com/CocoaPods/Specs.git:
+    - AesGcm
+    - AFNetworking
+    - Alamofire
+    - Bugly
+    - Cache
+    - GTExtensionSDK
+    - GTSDK
+    - KakaJSON
+    - LookinServer
+    - Masonry
+    - MBProgressHUD
+    - MJExtension
+    - MJRefresh
+    - ReactiveCocoa
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SDWebImage
+    - SensorsAnalyticsSDK
+    - SensorsFocus
+    - SnapKit
+    - SQLite.swift
+    - tingyunApp
+    - UMAPM
+    - UMCommon
+    - UMDevice
+    - YYCache
+    - YYImage
+    - YYModel
+    - YYWebImage
+
+EXTERNAL SOURCES:
+  BaseModule:
+    :commit: 51a4de0e6aa2169896a5c0c643be118984f715b0
+    :git: https://gitlab.ushaqi.com/iOS/BaseModule.git
+  YJEncryptSwift:
+    :git: https://gitlab.ushaqi.com/iOS/yjencrypt.git
+  YJShareSDK:
+    :branch: feature/ttyy
+    :git: https://gitlab.ushaqi.com/iOS/yjsharesdk.git
+  YJSWebModule:
+    :branch: ttyy
+    :git: https://gitlab.ushaqi.com/iOS/YJSWebModule.git
+
+CHECKOUT OPTIONS:
+  BaseModule:
+    :commit: 51a4de0e6aa2169896a5c0c643be118984f715b0
+    :git: https://gitlab.ushaqi.com/iOS/BaseModule.git
+  YJEncryptSwift:
+    :commit: 01291bcc9ccd41e5a257d9c0f348ba3c3b386857
+    :git: https://gitlab.ushaqi.com/iOS/yjencrypt.git
+  YJShareSDK:
+    :commit: 66b3bbb3bb0b7b2758b11b40a75b281cea6c9ed2
+    :git: https://gitlab.ushaqi.com/iOS/yjsharesdk.git
+  YJSWebModule:
+    :commit: 1b55f22cc2510ae84c8d09a1faec383fbd6e3ca4
+    :git: https://gitlab.ushaqi.com/iOS/YJSWebModule.git
+
+SPEC CHECKSUMS:
+  AesGcm: 14d70d3a321e92d3a773a9191c28b5ac534fb278
+  AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
+  Alamofire: e447a2774a40c996748296fa2c55112fdbbc42f9
+  AliAuthSDK: 731398a72bdada5defe9cf01909a58f720574551
+  AlibcTradeSDK: c7316224913498ea3d447386849cf0abf9e53fe6
+  AliLinkPartnerSDK: c5778cdfdcee7bfe342238d39a77766184d36a46
+  BaseModule: c636e8bcfabcdd9ceb4d88c889f8792d9449833e
+  BCUserTrack: 49251c6fb7c65cbbc221a492bbd3f3e142f1fb0f
+  Bugly: 88bc32c0acc6fef7b74d610f0319ee7560d6b9fe
+  Cache: 48762993ec44e1d93483c4d4a13edd18452326f4
+  GTExtensionSDK: d8363e15fbc559a876ed5a675c6a82cebc29c938
+  GTSDK: dc94626a7a6323867fcdd4ff2c47dc55440eaad9
+  KakaJSON: cc5ff50a8c1cfbb09413db8496cb709a209e6137
+  LookinServer: 5e1d44b7e4a2a98793f1eaf319c583e1e946b830
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJExtension: 6c15c7b93398447252c0defdb8d69d02d218a41e
+  MJRefresh: 30997d30b347c8e9508a4db11e3a690da0c9b85a
+  mtopSDK: d6fdf81730342a69be920b576541c7bb81a683d5
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
+  RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
+  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  securityGuard: 9c04c44a3b663f36e15064042abfc107fa07133c
+  SensorsAnalyticsSDK: 043fb291ad4d7a53243f8492ec4a67b1848105a6
+  SensorsFocus: e634230ad8cc2e70108d6231ae0cb6514e212083
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SQLite.swift: 30f2cdb09627181d472e55c4bc6b3b161f28de33
+  tingyunApp: e9478d011708a5e359625c07a21cb69e364750e0
+  UMAPM: d0623e0b3ca8b1a1df855e0bddb91b5c002d097d
+  UMCommon: b5aabdb9fad44330ff8738d9bc46ebf93db14bf2
+  UMDevice: 28d21a568c8e8322e5a03bbd53b138d0c098d3b3
+  UTDID: 7860884a89209c8f1306740ff22cf117d72b6d8a
+  WindVane: 56e096abae757397ccd3accb66a959f3ffcbf949
+  YJEncryptSwift: 09ec788fd32cab0a6fe65ddcd25a0c8eccb7b0e5
+  YJShareSDK: 4ea59b2867ebb24a36f842baf5efa6dafd207a38
+  YJSWebModule: 5ab724497808a607fdd3e79df42bddb817696cd9
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+  YYImage: 1e1b62a9997399593e4b9c4ecfbbabbf1d3f3b54
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
+
+PODFILE CHECKSUM: 5b202f3d73acca04946925b307e1ada7bcf0eead
+
+COCOAPODS: 1.10.0

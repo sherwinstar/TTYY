@@ -1,0 +1,1994 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		021C4D1FA2D0AEAD3C7A3B5C /* Pods_TTYY.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D80EF14F2780C6EECC7A57 /* Pods_TTYY.framework */; };
+		42F7496970F50241C909AF5B /* Pods_NotificationService.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C251E8B8FE076A43B683AE8C /* Pods_NotificationService.framework */; };
+		48263155274913CD00F7E819 /* TYCashEnvelopePromptView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48263154274913CD00F7E819 /* TYCashEnvelopePromptView.swift */; };
+		4826315727493EB800F7E819 /* TYThirdLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4826315627493EB800F7E819 /* TYThirdLoadingView.swift */; };
+		482631592749425C00F7E819 /* third_loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 482631582749425C00F7E819 /* third_loading.gif */; };
+		48269F43272ACCFD00AAA02C /* TYUrlString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48269F42272ACCFD00AAA02C /* TYUrlString.swift */; };
+		48A4385B2732ED440090DF31 /* TYExplosiveProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A4385A2732ED440090DF31 /* TYExplosiveProductCell.swift */; };
+		48A4CED52735915A0090DF31 /* TYPlatformCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A4CED4273591590090DF31 /* TYPlatformCellView.swift */; };
+		48A6E5F3273BD3F300508394 /* TYPushInfoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A6E5F2273BD3F300508394 /* TYPushInfoHelper.swift */; };
+		48A6E606273CB1A300508394 /* TYExplosiveService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A6E605273CB1A300508394 /* TYExplosiveService.swift */; };
+		48B2040E2732293300765361 /* TYShopRecommendType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B2040D2732293300765361 /* TYShopRecommendType.swift */; };
+		48B26D9F27303F5100765361 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B26D9E27303F5100765361 /* UIView+Extension.swift */; };
+		48B2B8D82730E0B000765361 /* TYExplosiveProductsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B2B8D72730E0B000765361 /* TYExplosiveProductsController.swift */; };
+		48B2B8E12731979A00765361 /* TYExplosiveHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48B2B8E02731979A00765361 /* TYExplosiveHeader.swift */; };
+		48CC35B4273AD27A0091F4A1 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CC35B3273AD27A0091F4A1 /* NotificationService.swift */; };
+		48CC35B8273AD27A0091F4A1 /* NotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 48CC35B1273AD27A0091F4A1 /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		48CC35C3273ADC510091F4A1 /* TYAppDelegate+GT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CC35C2273ADC510091F4A1 /* TYAppDelegate+GT.swift */; };
+		48CC9F3E273963C00091F4A1 /* TYThirdConvertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CC9F3D273963C00091F4A1 /* TYThirdConvertHelper.swift */; };
+		48CC9F40273968B50091F4A1 /* TYPlatformType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48CC9F3F273968B50091F4A1 /* TYPlatformType.swift */; };
+		6D07BB612693113100C0CAF8 /* TYSettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D07BB602693113100C0CAF8 /* TYSettingVC.swift */; };
+		6D07BB64269400A800C0CAF8 /* TYSettingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D07BB63269400A800C0CAF8 /* TYSettingCell.swift */; };
+		6D07BB66269423FF00C0CAF8 /* TYProtocolVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D07BB65269423FF00C0CAF8 /* TYProtocolVC.swift */; };
+		6D07BB682694302800C0CAF8 /* TYAboutUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D07BB672694302800C0CAF8 /* TYAboutUsVC.swift */; };
+		6D07BB6A2694405700C0CAF8 /* TYLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D07BB692694405700C0CAF8 /* TYLoginVC.swift */; };
+		6D07BB6F2694453800C0CAF8 /* TYLoginPrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D07BB6E2694453800C0CAF8 /* TYLoginPrivacyView.swift */; };
+		6D07BB7226954CE000C0CAF8 /* TYAppleLoginHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D07BB7126954CE000C0CAF8 /* TYAppleLoginHelper.swift */; };
+		6D07BB7526957CCA00C0CAF8 /* TYAppDelegateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D07BB7426957CCA00C0CAF8 /* TYAppDelegateHelper.swift */; };
+		6D07BB7726957D2C00C0CAF8 /* TYThirdAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D07BB7626957D2C00C0CAF8 /* TYThirdAccount.swift */; };
+		6D07BB7A2695844D00C0CAF8 /* TYLoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D07BB792695844D00C0CAF8 /* TYLoginService.swift */; };
+		6D07BB802695A54500C0CAF8 /* TYUserInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D07BB7F2695A54500C0CAF8 /* TYUserInfoModel.swift */; };
+		6D07BB822695A73F00C0CAF8 /* TYUserInfoHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D07BB812695A73F00C0CAF8 /* TYUserInfoHelper.swift */; };
+		6D1517E0266A07EE00E8069A /* TYBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1517DF266A07EE00E8069A /* TYBaseVC.swift */; };
+		6D1517E5266A086200E8069A /* TYNavBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1517E4266A086200E8069A /* TYNavBarView.swift */; };
+		6D1517E9266A08F000E8069A /* TYTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1517E8266A08F000E8069A /* TYTabBarVC.swift */; };
+		6D1517EC266A0B4200E8069A /* TYTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1517EB266A0B4200E8069A /* TYTabBarItem.swift */; };
+		6D1517EF266A0BB500E8069A /* TYNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1517EE266A0BB500E8069A /* TYNavVC.swift */; };
+		6D1517F9266A124500E8069A /* TYShopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1517F8266A124500E8069A /* TYShopVC.swift */; };
+		6D1517FD266A125700E8069A /* TYGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1517FC266A125700E8069A /* TYGameVC.swift */; };
+		6D151800266A126000E8069A /* TYMineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1517FF266A126000E8069A /* TYMineVC.swift */; };
+		6D1641D026E5F928000ED83A /* guide_two@2x.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6D1641CA26E5F927000ED83A /* guide_two@2x.webp */; };
+		6D1641D126E5F928000ED83A /* guide_one@3x.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6D1641CB26E5F927000ED83A /* guide_one@3x.webp */; };
+		6D1641D226E5F928000ED83A /* guide_three@3x.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6D1641CC26E5F927000ED83A /* guide_three@3x.webp */; };
+		6D1641D326E5F928000ED83A /* guide_one@2x.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6D1641CD26E5F928000ED83A /* guide_one@2x.webp */; };
+		6D1641D426E5F928000ED83A /* guide_three@2x.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6D1641CE26E5F928000ED83A /* guide_three@2x.webp */; };
+		6D1641D526E5F928000ED83A /* guide_two@3x.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6D1641CF26E5F928000ED83A /* guide_two@3x.webp */; };
+		6D1641DC26E5FA83000ED83A /* guide_three_bg@2x.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6D1641D626E5FA81000ED83A /* guide_three_bg@2x.webp */; };
+		6D1641DD26E5FA83000ED83A /* guide_one_bg@3x.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6D1641D726E5FA81000ED83A /* guide_one_bg@3x.webp */; };
+		6D1641DE26E5FA83000ED83A /* guide_three_bg@3x.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6D1641D826E5FA82000ED83A /* guide_three_bg@3x.webp */; };
+		6D1641DF26E5FA83000ED83A /* guide_one_bg@2x.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6D1641D926E5FA82000ED83A /* guide_one_bg@2x.webp */; };
+		6D1641E026E5FA83000ED83A /* guide_two_bg@2x.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6D1641DA26E5FA83000ED83A /* guide_two_bg@2x.webp */; };
+		6D1641E126E5FA83000ED83A /* guide_two_bg@3x.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6D1641DB26E5FA83000ED83A /* guide_two_bg@3x.webp */; };
+		6D1641E426E5FBC3000ED83A /* launch_second@2x.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6D1641E226E5FBC2000ED83A /* launch_second@2x.webp */; };
+		6D1641E526E5FBC3000ED83A /* launch_second@3x.webp in Resources */ = {isa = PBXBuildFile; fileRef = 6D1641E326E5FBC3000ED83A /* launch_second@3x.webp */; };
+		6D1641E726E5FDC0000ED83A /* TYCacheDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1641E626E5FDC0000ED83A /* TYCacheDefine.swift */; };
+		6D1641E926E60252000ED83A /* TYGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1641E826E60252000ED83A /* TYGuideView.swift */; };
+		6D1641EB26E70598000ED83A /* TYHomeSearchHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1641EA26E70598000ED83A /* TYHomeSearchHistoryView.swift */; };
+		6D1641ED26E73217000ED83A /* TYSearchHistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1641EC26E73217000ED83A /* TYSearchHistoryCell.swift */; };
+		6D1641EF26E7513A000ED83A /* TYClearHistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1641EE26E7513A000ED83A /* TYClearHistoryView.swift */; };
+		6D1641F526E9B1D7000ED83A /* TYShopNativeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1641F426E9B1D7000ED83A /* TYShopNativeVC.swift */; };
+		6D1641F826E9D142000ED83A /* TYShopSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1641F726E9D142000ED83A /* TYShopSearchView.swift */; };
+		6D1641FA26E9E12F000ED83A /* TYShopCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1641F926E9E12E000ED83A /* TYShopCategoryView.swift */; };
+		6D1641FC26EA0CEB000ED83A /* TYShopAllCategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1641FB26EA0CEB000ED83A /* TYShopAllCategoryView.swift */; };
+		6D1A39EB269BE93F00678363 /* TYWebToWeb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1A39EA269BE93F00678363 /* TYWebToWeb.swift */; };
+		6D2C82AB269D35DF0001836A /* TYSTAHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2C82AA269D35DF0001836A /* TYSTAHelper.swift */; };
+		6D2C82AD269D71160001836A /* TYWebToLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2C82AC269D71160001836A /* TYWebToLog.swift */; };
+		6D2C82AF269DC04B0001836A /* TYGameWebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D2C82AE269DC04B0001836A /* TYGameWebVC.swift */; };
+		6D2C82B6269E7FEA0001836A /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D2C82B5269E7FEA0001836A /* JavaScriptCore.framework */; };
+		6D2C82B9269E80050001836A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D2C82B8269E80050001836A /* SystemConfiguration.framework */; };
+		6D2C82BC269E801D0001836A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D2C82BB269E801D0001836A /* Foundation.framework */; };
+		6D2C82BE269E80240001836A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D2C82BD269E80240001836A /* UIKit.framework */; };
+		6D2C82CB269E905A0001836A /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6D4DDAC02696C9BD00EEC8B3 /* loading.gif */; };
+		6D3880F826F4871700B0226D /* TYShopWebVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3880F726F4871700B0226D /* TYShopWebVC.swift */; };
+		6D413EDC26F3282400AD2A6F /* TYShopCategoryTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D413EDB26F3282400AD2A6F /* TYShopCategoryTool.swift */; };
+		6D4DDAC52696D1EC00EEC8B3 /* TYBindInviteCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4DDAC42696D1EC00EEC8B3 /* TYBindInviteCodeVC.swift */; };
+		6D4DDAC72696D8FF00EEC8B3 /* TYCacheHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4DDAC62696D8FF00EEC8B3 /* TYCacheHelper.swift */; };
+		6D4DDAC92696FC8800EEC8B3 /* TYBindSkipButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4DDAC82696FC8800EEC8B3 /* TYBindSkipButton.swift */; };
+		6D4DDACB2697E75000EEC8B3 /* TYAliPaySettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4DDACA2697E75000EEC8B3 /* TYAliPaySettingVC.swift */; };
+		6D6F90B026DF669700B1179E /* TYHomeFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6F90AF26DF669600B1179E /* TYHomeFlowView.swift */; };
+		6D6F90B226E09F0700B1179E /* TYHomePlatformView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6F90B126E09F0600B1179E /* TYHomePlatformView.swift */; };
+		6D6F90D626E1CA4200B1179E /* TYHomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6F90D526E1CA4100B1179E /* TYHomeService.swift */; };
+		6D6F90D826E1CAFD00B1179E /* TYBaseConfigModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6F90D726E1CAFD00B1179E /* TYBaseConfigModel.swift */; };
+		6D8C81572692A14700120008 /* TYHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C81562692A14700120008 /* TYHomeVC.swift */; };
+		6D8C815B2692A18500120008 /* TYPartnerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C815A2692A18500120008 /* TYPartnerVC.swift */; };
+		6D8C81AC2692D39200120008 /* TYOnlineUrlHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C81AB2692D39200120008 /* TYOnlineUrlHelper.swift */; };
+		6D8C81B02692DBA600120008 /* TYWebToUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D8C81AF2692DBA600120008 /* TYWebToUser.swift */; };
+		6DA9764026EEEC39002AF71C /* TYShopRecommendVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9763F26EEEC39002AF71C /* TYShopRecommendVC.swift */; };
+		6DA9764226EEECCC002AF71C /* TYShopCategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9764126EEECCC002AF71C /* TYShopCategoryVC.swift */; };
+		6DA9764426EEF8B4002AF71C /* TYRecommendBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9764326EEF8B4002AF71C /* TYRecommendBannerCell.swift */; };
+		6DA9764626EF28DD002AF71C /* TYShopModuleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9764526EF28DC002AF71C /* TYShopModuleCell.swift */; };
+		6DA9764826EF298F002AF71C /* TYModuleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9764726EF298F002AF71C /* TYModuleButton.swift */; };
+		6DA9764A26EF3556002AF71C /* TYShopGoodHeadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9764926EF3556002AF71C /* TYShopGoodHeadView.swift */; };
+		6DA9764C26EF3EBC002AF71C /* TYShopHotProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9764B26EF3EBC002AF71C /* TYShopHotProductCell.swift */; };
+		6DA9764E26EF4331002AF71C /* TYShopHotProductCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9764D26EF4331002AF71C /* TYShopHotProductCollectionCell.swift */; };
+		6DA9765026F04400002AF71C /* TYShopProductTypeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9764F26F04400002AF71C /* TYShopProductTypeView.swift */; };
+		6DA9765226F0837E002AF71C /* TYShopProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9765126F0837E002AF71C /* TYShopProductCell.swift */; };
+		6DA9765626F1CB29002AF71C /* TYShopService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9765526F1CB29002AF71C /* TYShopService.swift */; };
+		6DA9765826F1CFF4002AF71C /* TYShopProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9765726F1CFF4002AF71C /* TYShopProductModel.swift */; };
+		6DACCE36269EB5FA00E55173 /* TYWebToShop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DACCE35269EB5FA00E55173 /* TYWebToShop.swift */; };
+		6DACCE3F269EDA4800E55173 /* TYUMengDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DACCE3E269EDA4800E55173 /* TYUMengDefine.swift */; };
+		6DACCE41269EE32D00E55173 /* LaunchScreenSplashBgImg.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DACCE40269EE32D00E55173 /* LaunchScreenSplashBgImg.storyboard */; };
+		6DACCE43269EE36800E55173 /* TYLaunchScreenSplashBgImgVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DACCE42269EE36800E55173 /* TYLaunchScreenSplashBgImgVC.swift */; };
+		6DACCE68269F095400E55173 /* yw_1222_baichuan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6DACCE67269F095400E55173 /* yw_1222_baichuan.jpg */; };
+		6DACCE6A269F15B200E55173 /* mtopsdk_configuration.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6DACCE69269F15B200E55173 /* mtopsdk_configuration.plist */; };
+		6DADA7CA26C25B27009A108A /* TYMineHeadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DADA7C926C25B27009A108A /* TYMineHeadCell.swift */; };
+		6DADA7CC26C2B076009A108A /* TYInComeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DADA7CB26C2B076009A108A /* TYInComeCell.swift */; };
+		6DADA7CF26C2B574009A108A /* BEBAS.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 6DADA7CE26C2B574009A108A /* BEBAS.TTF */; };
+		6DADA7D126C37116009A108A /* TYMineDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DADA7D026C37116009A108A /* TYMineDetailCell.swift */; };
+		6DADA7D326C37477009A108A /* TYMineBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DADA7D226C37477009A108A /* TYMineBtn.swift */; };
+		6DADA7D626C3A8B1009A108A /* TYMineService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DADA7D526C3A8B0009A108A /* TYMineService.swift */; };
+		6DADA7D926C3A918009A108A /* TYRebateInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DADA7D826C3A918009A108A /* TYRebateInfoModel.swift */; };
+		6DADA7DB26C3B545009A108A /* TYOrderInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DADA7DA26C3B545009A108A /* TYOrderInfoModel.swift */; };
+		6DADA7DD26C3BDE9009A108A /* TYOrderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DADA7DC26C3BDE9009A108A /* TYOrderCell.swift */; };
+		6DC6D56C26A5189000FBE708 /* TYOnlineParamsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC6D56B26A5189000FBE708 /* TYOnlineParamsHelper.swift */; };
+		6DC6D56E26A518B300FBE708 /* TYHuYanHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC6D56D26A518B300FBE708 /* TYHuYanHelper.swift */; };
+		6DC6D57026A51A1700FBE708 /* TYOnlineParamsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC6D56F26A51A1700FBE708 /* TYOnlineParamsModel.swift */; };
+		6DC6D57226A5770900FBE708 /* DuoduoJinbaoSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6DC6D57126A5770900FBE708 /* DuoduoJinbaoSDK.bundle */; };
+		6DC6D57426A5771E00FBE708 /* DuoduoJinbaoSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DC6D57326A5771E00FBE708 /* DuoduoJinbaoSDK.framework */; };
+		6DC6D57726A57A0E00FBE708 /* JDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DC6D57526A57A0E00FBE708 /* JDSDK.framework */; };
+		6DC6D57826A57A0E00FBE708 /* JDSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6DC6D57626A57A0E00FBE708 /* JDSDK.bundle */; };
+		6DC6D57A26A6641D00FBE708 /* TYSTAEventDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC6D57926A6641D00FBE708 /* TYSTAEventDefine.swift */; };
+		6DDB3B4526C5406400466B0D /* TYContactUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDB3B4426C5406400466B0D /* TYContactUsVC.swift */; };
+		6DDB3B4726C65F6400466B0D /* TYWithdrawVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDB3B4626C65F6400466B0D /* TYWithdrawVC.swift */; };
+		6DDED2272704552200E1CF81 /* TYChannelHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDED2262704552200E1CF81 /* TYChannelHelper.swift */; };
+		6DDED229270455A000E1CF81 /* TYChannelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDED228270455A000E1CF81 /* TYChannelModel.swift */; };
+		6DDED22B2704598900E1CF81 /* TYLogHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DDED22A2704598900E1CF81 /* TYLogHelper.swift */; };
+		6DDED22E2704660C00E1CF81 /* TYUrlUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDED22D2704660C00E1CF81 /* TYUrlUtils.m */; };
+		6DE878D326A6AA2000F47258 /* TYCopyProductHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE878D226A6AA2000F47258 /* TYCopyProductHelper.swift */; };
+		6DE878D526A6AD1100F47258 /* TYProductInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE878D426A6AD1100F47258 /* TYProductInfoModel.swift */; };
+		6DE878D726A6B38B00F47258 /* TYCopyProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE878D626A6B38B00F47258 /* TYCopyProductView.swift */; };
+		6DE878DA26A6E32600F47258 /* UIApplication+TYInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DE878D926A6E32600F47258 /* UIApplication+TYInfo.swift */; };
+		6DF0CEAA26DE1356009939EE /* TYHomeNativeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF0CEA926DE1355009939EE /* TYHomeNativeVC.swift */; };
+		6DF0CEAD26DE168C009939EE /* TYHomeMoneyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF0CEAC26DE168C009939EE /* TYHomeMoneyView.swift */; };
+		6DF0CEAF26DE330F009939EE /* TYHomeSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF0CEAE26DE330F009939EE /* TYHomeSearchView.swift */; };
+		6DF5C74226A7BB3800DAD3DC /* TYPrivacyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF5C74126A7BB3800DAD3DC /* TYPrivacyViewController.swift */; };
+		6DF5C74526A93EA000DAD3DC /* TYShareManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF5C74426A93EA000DAD3DC /* TYShareManager.swift */; };
+		6DF5C74826A9414A00DAD3DC /* TYShareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF5C74726A9414A00DAD3DC /* TYShareView.swift */; };
+		6DF5C74A26A944C700DAD3DC /* TYShareButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DF5C74926A944C700DAD3DC /* TYShareButton.swift */; };
+		DE130DD2265E405B006195C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE130DD1265E405B006195C1 /* AppDelegate.swift */; };
+		DE130DDB265E405D006195C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE130DDA265E405D006195C1 /* Assets.xcassets */; };
+		DE130DDE265E405D006195C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE130DDC265E405D006195C1 /* LaunchScreen.storyboard */; };
+		DE9EF001265F8027003D9CD2 /* UIDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EF000265F8027003D9CD2 /* UIDefine.swift */; };
+		DE9EF004265F808C003D9CD2 /* NotificationDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE9EF003265F808C003D9CD2 /* NotificationDefine.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48CC35B6273AD27A0091F4A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE130DC6265E405B006195C1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48CC35B0273AD27A0091F4A1;
+			remoteInfo = NotificationService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		48CC35BC273AD27A0091F4A1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				48CC35B8273AD27A0091F4A1 /* NotificationService.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0596C781B0156AAE2201C795 /* Pods-TTYY.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTYY.debug.xcconfig"; path = "Target Support Files/Pods-TTYY/Pods-TTYY.debug.xcconfig"; sourceTree = "<group>"; };
+		48263154274913CD00F7E819 /* TYCashEnvelopePromptView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYCashEnvelopePromptView.swift; sourceTree = "<group>"; };
+		4826315627493EB800F7E819 /* TYThirdLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYThirdLoadingView.swift; sourceTree = "<group>"; };
+		482631582749425C00F7E819 /* third_loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = third_loading.gif; sourceTree = "<group>"; };
+		48269F42272ACCFD00AAA02C /* TYUrlString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYUrlString.swift; sourceTree = "<group>"; };
+		48A4385A2732ED440090DF31 /* TYExplosiveProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYExplosiveProductCell.swift; sourceTree = "<group>"; };
+		48A4CED4273591590090DF31 /* TYPlatformCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYPlatformCellView.swift; sourceTree = "<group>"; };
+		48A6E5F2273BD3F300508394 /* TYPushInfoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYPushInfoHelper.swift; sourceTree = "<group>"; };
+		48A6E605273CB1A300508394 /* TYExplosiveService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYExplosiveService.swift; sourceTree = "<group>"; };
+		48B2040D2732293300765361 /* TYShopRecommendType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYShopRecommendType.swift; sourceTree = "<group>"; };
+		48B26D9E27303F5100765361 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		48B2B8D72730E0B000765361 /* TYExplosiveProductsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYExplosiveProductsController.swift; sourceTree = "<group>"; };
+		48B2B8E02731979A00765361 /* TYExplosiveHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYExplosiveHeader.swift; sourceTree = "<group>"; };
+		48CC35B1273AD27A0091F4A1 /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		48CC35B3273AD27A0091F4A1 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		48CC35B5273AD27A0091F4A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48CC35BE273AD7720091F4A1 /* NotificationService-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NotificationService-Bridging-Header.h"; sourceTree = "<group>"; };
+		48CC35C2273ADC510091F4A1 /* TYAppDelegate+GT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TYAppDelegate+GT.swift"; sourceTree = "<group>"; };
+		48CC9F3D273963C00091F4A1 /* TYThirdConvertHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYThirdConvertHelper.swift; sourceTree = "<group>"; };
+		48CC9F3F273968B50091F4A1 /* TYPlatformType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYPlatformType.swift; sourceTree = "<group>"; };
+		5FAEEA5F3511CAB2FD0BE5F1 /* Pods-TTYY.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TTYY.release.xcconfig"; path = "Target Support Files/Pods-TTYY/Pods-TTYY.release.xcconfig"; sourceTree = "<group>"; };
+		6D07BB602693113100C0CAF8 /* TYSettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYSettingVC.swift; sourceTree = "<group>"; };
+		6D07BB63269400A800C0CAF8 /* TYSettingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYSettingCell.swift; sourceTree = "<group>"; };
+		6D07BB65269423FF00C0CAF8 /* TYProtocolVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYProtocolVC.swift; sourceTree = "<group>"; };
+		6D07BB672694302800C0CAF8 /* TYAboutUsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYAboutUsVC.swift; sourceTree = "<group>"; };
+		6D07BB692694405700C0CAF8 /* TYLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYLoginVC.swift; sourceTree = "<group>"; };
+		6D07BB6E2694453800C0CAF8 /* TYLoginPrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYLoginPrivacyView.swift; sourceTree = "<group>"; };
+		6D07BB7126954CE000C0CAF8 /* TYAppleLoginHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYAppleLoginHelper.swift; sourceTree = "<group>"; };
+		6D07BB732695534700C0CAF8 /* TTYY.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TTYY.entitlements; sourceTree = "<group>"; };
+		6D07BB7426957CCA00C0CAF8 /* TYAppDelegateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYAppDelegateHelper.swift; sourceTree = "<group>"; };
+		6D07BB7626957D2C00C0CAF8 /* TYThirdAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYThirdAccount.swift; sourceTree = "<group>"; };
+		6D07BB792695844D00C0CAF8 /* TYLoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYLoginService.swift; sourceTree = "<group>"; };
+		6D07BB7F2695A54500C0CAF8 /* TYUserInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYUserInfoModel.swift; sourceTree = "<group>"; };
+		6D07BB812695A73F00C0CAF8 /* TYUserInfoHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYUserInfoHelper.swift; sourceTree = "<group>"; };
+		6D1517DF266A07EE00E8069A /* TYBaseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYBaseVC.swift; sourceTree = "<group>"; };
+		6D1517E4266A086200E8069A /* TYNavBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYNavBarView.swift; sourceTree = "<group>"; };
+		6D1517E8266A08F000E8069A /* TYTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYTabBarVC.swift; sourceTree = "<group>"; };
+		6D1517EB266A0B4200E8069A /* TYTabBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYTabBarItem.swift; sourceTree = "<group>"; };
+		6D1517EE266A0BB500E8069A /* TYNavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYNavVC.swift; sourceTree = "<group>"; };
+		6D1517F8266A124500E8069A /* TYShopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYShopVC.swift; sourceTree = "<group>"; };
+		6D1517FC266A125700E8069A /* TYGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYGameVC.swift; sourceTree = "<group>"; };
+		6D1517FF266A126000E8069A /* TYMineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYMineVC.swift; sourceTree = "<group>"; };
+		6D1641CA26E5F927000ED83A /* guide_two@2x.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "guide_two@2x.webp"; sourceTree = "<group>"; };
+		6D1641CB26E5F927000ED83A /* guide_one@3x.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "guide_one@3x.webp"; sourceTree = "<group>"; };
+		6D1641CC26E5F927000ED83A /* guide_three@3x.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "guide_three@3x.webp"; sourceTree = "<group>"; };
+		6D1641CD26E5F928000ED83A /* guide_one@2x.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "guide_one@2x.webp"; sourceTree = "<group>"; };
+		6D1641CE26E5F928000ED83A /* guide_three@2x.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "guide_three@2x.webp"; sourceTree = "<group>"; };
+		6D1641CF26E5F928000ED83A /* guide_two@3x.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "guide_two@3x.webp"; sourceTree = "<group>"; };
+		6D1641D626E5FA81000ED83A /* guide_three_bg@2x.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "guide_three_bg@2x.webp"; sourceTree = "<group>"; };
+		6D1641D726E5FA81000ED83A /* guide_one_bg@3x.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "guide_one_bg@3x.webp"; sourceTree = "<group>"; };
+		6D1641D826E5FA82000ED83A /* guide_three_bg@3x.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "guide_three_bg@3x.webp"; sourceTree = "<group>"; };
+		6D1641D926E5FA82000ED83A /* guide_one_bg@2x.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "guide_one_bg@2x.webp"; sourceTree = "<group>"; };
+		6D1641DA26E5FA83000ED83A /* guide_two_bg@2x.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "guide_two_bg@2x.webp"; sourceTree = "<group>"; };
+		6D1641DB26E5FA83000ED83A /* guide_two_bg@3x.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "guide_two_bg@3x.webp"; sourceTree = "<group>"; };
+		6D1641E226E5FBC2000ED83A /* launch_second@2x.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "launch_second@2x.webp"; sourceTree = "<group>"; };
+		6D1641E326E5FBC3000ED83A /* launch_second@3x.webp */ = {isa = PBXFileReference; lastKnownFileType = file; path = "launch_second@3x.webp"; sourceTree = "<group>"; };
+		6D1641E626E5FDC0000ED83A /* TYCacheDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYCacheDefine.swift; sourceTree = "<group>"; };
+		6D1641E826E60252000ED83A /* TYGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYGuideView.swift; sourceTree = "<group>"; };
+		6D1641EA26E70598000ED83A /* TYHomeSearchHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYHomeSearchHistoryView.swift; sourceTree = "<group>"; };
+		6D1641EC26E73217000ED83A /* TYSearchHistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYSearchHistoryCell.swift; sourceTree = "<group>"; };
+		6D1641EE26E7513A000ED83A /* TYClearHistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYClearHistoryView.swift; sourceTree = "<group>"; };
+		6D1641F426E9B1D7000ED83A /* TYShopNativeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYShopNativeVC.swift; sourceTree = "<group>"; };
+		6D1641F726E9D142000ED83A /* TYShopSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYShopSearchView.swift; sourceTree = "<group>"; };
+		6D1641F926E9E12E000ED83A /* TYShopCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYShopCategoryView.swift; sourceTree = "<group>"; };
+		6D1641FB26EA0CEB000ED83A /* TYShopAllCategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYShopAllCategoryView.swift; sourceTree = "<group>"; };
+		6D1A39EA269BE93F00678363 /* TYWebToWeb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYWebToWeb.swift; sourceTree = "<group>"; };
+		6D2C82AA269D35DF0001836A /* TYSTAHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYSTAHelper.swift; sourceTree = "<group>"; };
+		6D2C82AC269D71160001836A /* TYWebToLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYWebToLog.swift; sourceTree = "<group>"; };
+		6D2C82AE269DC04B0001836A /* TYGameWebVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYGameWebVC.swift; sourceTree = "<group>"; };
+		6D2C82B5269E7FEA0001836A /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		6D2C82B7269E7FF70001836A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		6D2C82B8269E80050001836A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		6D2C82BA269E80130001836A /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		6D2C82BB269E801D0001836A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6D2C82BD269E80240001836A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6D3880F726F4871700B0226D /* TYShopWebVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYShopWebVC.swift; sourceTree = "<group>"; };
+		6D413EDB26F3282400AD2A6F /* TYShopCategoryTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYShopCategoryTool.swift; sourceTree = "<group>"; };
+		6D4DDAC02696C9BD00EEC8B3 /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
+		6D4DDAC42696D1EC00EEC8B3 /* TYBindInviteCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYBindInviteCodeVC.swift; sourceTree = "<group>"; };
+		6D4DDAC62696D8FF00EEC8B3 /* TYCacheHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYCacheHelper.swift; sourceTree = "<group>"; };
+		6D4DDAC82696FC8800EEC8B3 /* TYBindSkipButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYBindSkipButton.swift; sourceTree = "<group>"; };
+		6D4DDACA2697E75000EEC8B3 /* TYAliPaySettingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYAliPaySettingVC.swift; sourceTree = "<group>"; };
+		6D6F90AF26DF669600B1179E /* TYHomeFlowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYHomeFlowView.swift; sourceTree = "<group>"; };
+		6D6F90B126E09F0600B1179E /* TYHomePlatformView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYHomePlatformView.swift; sourceTree = "<group>"; };
+		6D6F90D526E1CA4100B1179E /* TYHomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYHomeService.swift; sourceTree = "<group>"; };
+		6D6F90D726E1CAFD00B1179E /* TYBaseConfigModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYBaseConfigModel.swift; sourceTree = "<group>"; };
+		6D8C81562692A14700120008 /* TYHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYHomeVC.swift; sourceTree = "<group>"; };
+		6D8C815A2692A18500120008 /* TYPartnerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYPartnerVC.swift; sourceTree = "<group>"; };
+		6D8C81AB2692D39200120008 /* TYOnlineUrlHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYOnlineUrlHelper.swift; sourceTree = "<group>"; };
+		6D8C81AF2692DBA600120008 /* TYWebToUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYWebToUser.swift; sourceTree = "<group>"; };
+		6DA9763F26EEEC39002AF71C /* TYShopRecommendVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYShopRecommendVC.swift; sourceTree = "<group>"; };
+		6DA9764126EEECCC002AF71C /* TYShopCategoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYShopCategoryVC.swift; sourceTree = "<group>"; };
+		6DA9764326EEF8B4002AF71C /* TYRecommendBannerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYRecommendBannerCell.swift; sourceTree = "<group>"; };
+		6DA9764526EF28DC002AF71C /* TYShopModuleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYShopModuleCell.swift; sourceTree = "<group>"; };
+		6DA9764726EF298F002AF71C /* TYModuleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYModuleButton.swift; sourceTree = "<group>"; };
+		6DA9764926EF3556002AF71C /* TYShopGoodHeadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYShopGoodHeadView.swift; sourceTree = "<group>"; };
+		6DA9764B26EF3EBC002AF71C /* TYShopHotProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYShopHotProductCell.swift; sourceTree = "<group>"; };
+		6DA9764D26EF4331002AF71C /* TYShopHotProductCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYShopHotProductCollectionCell.swift; sourceTree = "<group>"; };
+		6DA9764F26F04400002AF71C /* TYShopProductTypeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYShopProductTypeView.swift; sourceTree = "<group>"; };
+		6DA9765126F0837E002AF71C /* TYShopProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYShopProductCell.swift; sourceTree = "<group>"; };
+		6DA9765526F1CB29002AF71C /* TYShopService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYShopService.swift; sourceTree = "<group>"; };
+		6DA9765726F1CFF4002AF71C /* TYShopProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYShopProductModel.swift; sourceTree = "<group>"; };
+		6DACCE35269EB5FA00E55173 /* TYWebToShop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYWebToShop.swift; sourceTree = "<group>"; };
+		6DACCE3E269EDA4800E55173 /* TYUMengDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYUMengDefine.swift; sourceTree = "<group>"; };
+		6DACCE40269EE32D00E55173 /* LaunchScreenSplashBgImg.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreenSplashBgImg.storyboard; sourceTree = "<group>"; };
+		6DACCE42269EE36800E55173 /* TYLaunchScreenSplashBgImgVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYLaunchScreenSplashBgImgVC.swift; sourceTree = "<group>"; };
+		6DACCE67269F095400E55173 /* yw_1222_baichuan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yw_1222_baichuan.jpg; sourceTree = "<group>"; };
+		6DACCE69269F15B200E55173 /* mtopsdk_configuration.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = mtopsdk_configuration.plist; sourceTree = "<group>"; };
+		6DADA7C926C25B27009A108A /* TYMineHeadCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYMineHeadCell.swift; sourceTree = "<group>"; };
+		6DADA7CB26C2B076009A108A /* TYInComeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYInComeCell.swift; sourceTree = "<group>"; };
+		6DADA7CE26C2B574009A108A /* BEBAS.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = BEBAS.TTF; sourceTree = "<group>"; };
+		6DADA7D026C37116009A108A /* TYMineDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYMineDetailCell.swift; sourceTree = "<group>"; };
+		6DADA7D226C37477009A108A /* TYMineBtn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYMineBtn.swift; sourceTree = "<group>"; };
+		6DADA7D526C3A8B0009A108A /* TYMineService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYMineService.swift; sourceTree = "<group>"; };
+		6DADA7D826C3A918009A108A /* TYRebateInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYRebateInfoModel.swift; sourceTree = "<group>"; };
+		6DADA7DA26C3B545009A108A /* TYOrderInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYOrderInfoModel.swift; sourceTree = "<group>"; };
+		6DADA7DC26C3BDE9009A108A /* TYOrderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYOrderCell.swift; sourceTree = "<group>"; };
+		6DC6D56B26A5189000FBE708 /* TYOnlineParamsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYOnlineParamsHelper.swift; sourceTree = "<group>"; };
+		6DC6D56D26A518B300FBE708 /* TYHuYanHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYHuYanHelper.swift; sourceTree = "<group>"; };
+		6DC6D56F26A51A1700FBE708 /* TYOnlineParamsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYOnlineParamsModel.swift; sourceTree = "<group>"; };
+		6DC6D57126A5770900FBE708 /* DuoduoJinbaoSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = DuoduoJinbaoSDK.bundle; sourceTree = "<group>"; };
+		6DC6D57326A5771E00FBE708 /* DuoduoJinbaoSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DuoduoJinbaoSDK.framework; sourceTree = "<group>"; };
+		6DC6D57526A57A0E00FBE708 /* JDSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JDSDK.framework; sourceTree = "<group>"; };
+		6DC6D57626A57A0E00FBE708 /* JDSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JDSDK.bundle; sourceTree = "<group>"; };
+		6DC6D57926A6641D00FBE708 /* TYSTAEventDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYSTAEventDefine.swift; sourceTree = "<group>"; };
+		6DDB3B4426C5406400466B0D /* TYContactUsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYContactUsVC.swift; sourceTree = "<group>"; };
+		6DDB3B4626C65F6400466B0D /* TYWithdrawVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYWithdrawVC.swift; sourceTree = "<group>"; };
+		6DDED2262704552200E1CF81 /* TYChannelHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYChannelHelper.swift; sourceTree = "<group>"; };
+		6DDED228270455A000E1CF81 /* TYChannelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYChannelModel.swift; sourceTree = "<group>"; };
+		6DDED22A2704598900E1CF81 /* TYLogHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYLogHelper.swift; sourceTree = "<group>"; };
+		6DDED22C2704660C00E1CF81 /* TYUrlUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TYUrlUtils.h; sourceTree = "<group>"; };
+		6DDED22D2704660C00E1CF81 /* TYUrlUtils.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TYUrlUtils.m; sourceTree = "<group>"; };
+		6DE878D226A6AA2000F47258 /* TYCopyProductHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYCopyProductHelper.swift; sourceTree = "<group>"; };
+		6DE878D426A6AD1100F47258 /* TYProductInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYProductInfoModel.swift; sourceTree = "<group>"; };
+		6DE878D626A6B38B00F47258 /* TYCopyProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYCopyProductView.swift; sourceTree = "<group>"; };
+		6DE878D926A6E32600F47258 /* UIApplication+TYInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+TYInfo.swift"; sourceTree = "<group>"; };
+		6DF0CEA926DE1355009939EE /* TYHomeNativeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYHomeNativeVC.swift; sourceTree = "<group>"; };
+		6DF0CEAC26DE168C009939EE /* TYHomeMoneyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYHomeMoneyView.swift; sourceTree = "<group>"; };
+		6DF0CEAE26DE330F009939EE /* TYHomeSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYHomeSearchView.swift; sourceTree = "<group>"; };
+		6DF5C74126A7BB3800DAD3DC /* TYPrivacyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYPrivacyViewController.swift; sourceTree = "<group>"; };
+		6DF5C74426A93EA000DAD3DC /* TYShareManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYShareManager.swift; sourceTree = "<group>"; };
+		6DF5C74726A9414A00DAD3DC /* TYShareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYShareView.swift; sourceTree = "<group>"; };
+		6DF5C74926A944C700DAD3DC /* TYShareButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TYShareButton.swift; sourceTree = "<group>"; };
+		797C718A2FC857C0D86BFF66 /* Pods-NotificationService.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationService.release.xcconfig"; path = "Target Support Files/Pods-NotificationService/Pods-NotificationService.release.xcconfig"; sourceTree = "<group>"; };
+		81F8E9547591AAF1C8E71F5A /* Pods-NotificationService.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NotificationService.debug.xcconfig"; path = "Target Support Files/Pods-NotificationService/Pods-NotificationService.debug.xcconfig"; sourceTree = "<group>"; };
+		C251E8B8FE076A43B683AE8C /* Pods_NotificationService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NotificationService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9D80EF14F2780C6EECC7A57 /* Pods_TTYY.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TTYY.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE130DCE265E405B006195C1 /* TTYY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TTYY.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE130DD1265E405B006195C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE130DDA265E405D006195C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE130DDD265E405D006195C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE130DDF265E405D006195C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE9EEFB9265E78AC003D9CD2 /* TTYY-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TTYY-Prefix.pch"; sourceTree = "<group>"; };
+		DE9EEFBA265E78AC003D9CD2 /* TTYY-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TTYY-Bridging-Header.h"; sourceTree = "<group>"; };
+		DE9EF000265F8027003D9CD2 /* UIDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIDefine.swift; sourceTree = "<group>"; };
+		DE9EF003265F808C003D9CD2 /* NotificationDefine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationDefine.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48CC35AE273AD27A0091F4A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42F7496970F50241C909AF5B /* Pods_NotificationService.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE130DCB265E405B006195C1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D2C82BC269E801D0001836A /* Foundation.framework in Frameworks */,
+				6D2C82BE269E80240001836A /* UIKit.framework in Frameworks */,
+				021C4D1FA2D0AEAD3C7A3B5C /* Pods_TTYY.framework in Frameworks */,
+				6D2C82B9269E80050001836A /* SystemConfiguration.framework in Frameworks */,
+				6DC6D57726A57A0E00FBE708 /* JDSDK.framework in Frameworks */,
+				6DC6D57426A5771E00FBE708 /* DuoduoJinbaoSDK.framework in Frameworks */,
+				6D2C82B6269E7FEA0001836A /* JavaScriptCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		482631532749133900F7E819 /* CashEnvelope */ = {
+			isa = PBXGroup;
+			children = (
+				48263154274913CD00F7E819 /* TYCashEnvelopePromptView.swift */,
+			);
+			path = CashEnvelope;
+			sourceTree = "<group>";
+		};
+		48A6E604273CB16D00508394 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				48A6E605273CB1A300508394 /* TYExplosiveService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		48B26D9D27303F4700765361 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				48B26D9E27303F5100765361 /* UIView+Extension.swift */,
+				48CC9F3F273968B50091F4A1 /* TYPlatformType.swift */,
+				4826315627493EB800F7E819 /* TYThirdLoadingView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		48B2B8D32730E02300765361 /* Explosive */ = {
+			isa = PBXGroup;
+			children = (
+				48A6E604273CB16D00508394 /* Service */,
+				48B2B8DD273196BF00765361 /* Views */,
+				48B2B8D42730E03600765361 /* Controller */,
+			);
+			path = Explosive;
+			sourceTree = "<group>";
+		};
+		48B2B8D42730E03600765361 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				48B2B8D72730E0B000765361 /* TYExplosiveProductsController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		48B2B8DD273196BF00765361 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				48B2B8E02731979A00765361 /* TYExplosiveHeader.swift */,
+				48A4385A2732ED440090DF31 /* TYExplosiveProductCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		48CC35B2273AD27A0091F4A1 /* NotificationService */ = {
+			isa = PBXGroup;
+			children = (
+				48CC35B3273AD27A0091F4A1 /* NotificationService.swift */,
+				48CC35B5273AD27A0091F4A1 /* Info.plist */,
+				48CC35BE273AD7720091F4A1 /* NotificationService-Bridging-Header.h */,
+			);
+			path = NotificationService;
+			sourceTree = "<group>";
+		};
+		48CC9F3C2739639A0091F4A1 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				48CC9F3D273963C00091F4A1 /* TYThirdConvertHelper.swift */,
+				48A6E5F2273BD3F300508394 /* TYPushInfoHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		566C8AA6900A45952E6AD962 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0596C781B0156AAE2201C795 /* Pods-TTYY.debug.xcconfig */,
+				5FAEEA5F3511CAB2FD0BE5F1 /* Pods-TTYY.release.xcconfig */,
+				81F8E9547591AAF1C8E71F5A /* Pods-NotificationService.debug.xcconfig */,
+				797C718A2FC857C0D86BFF66 /* Pods-NotificationService.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5C4151429A51C251BB15D366 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D2C82BD269E80240001836A /* UIKit.framework */,
+				6D2C82BB269E801D0001836A /* Foundation.framework */,
+				6D2C82BA269E80130001836A /* libsqlite3.0.tbd */,
+				6D2C82B8269E80050001836A /* SystemConfiguration.framework */,
+				6D2C82B7269E7FF70001836A /* libz.tbd */,
+				6D2C82B5269E7FEA0001836A /* JavaScriptCore.framework */,
+				D9D80EF14F2780C6EECC7A57 /* Pods_TTYY.framework */,
+				C251E8B8FE076A43B683AE8C /* Pods_NotificationService.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6D07BB622694009600C0CAF8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6D07BB63269400A800C0CAF8 /* TYSettingCell.swift */,
+				6DADA7C926C25B27009A108A /* TYMineHeadCell.swift */,
+				6DADA7CB26C2B076009A108A /* TYInComeCell.swift */,
+				6DADA7D026C37116009A108A /* TYMineDetailCell.swift */,
+				6DADA7D226C37477009A108A /* TYMineBtn.swift */,
+				6DADA7DC26C3BDE9009A108A /* TYOrderCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6D07BB6B2694411400C0CAF8 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6D07BB7E2695A2FA00C0CAF8 /* Model */,
+				6D07BB782695843B00C0CAF8 /* Service */,
+				6D07BB7026954CAF00C0CAF8 /* Helper */,
+				6D07BB6D2694450E00C0CAF8 /* Views */,
+				6D07BB6C2694411400C0CAF8 /* Controllers */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6D07BB6C2694411400C0CAF8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6D07BB692694405700C0CAF8 /* TYLoginVC.swift */,
+				6D4DDAC42696D1EC00EEC8B3 /* TYBindInviteCodeVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6D07BB6D2694450E00C0CAF8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6D07BB6E2694453800C0CAF8 /* TYLoginPrivacyView.swift */,
+				6D4DDAC82696FC8800EEC8B3 /* TYBindSkipButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6D07BB7026954CAF00C0CAF8 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				6D07BB7126954CE000C0CAF8 /* TYAppleLoginHelper.swift */,
+				6D07BB812695A73F00C0CAF8 /* TYUserInfoHelper.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		6D07BB782695843B00C0CAF8 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				6D07BB792695844D00C0CAF8 /* TYLoginService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		6D07BB7B2695912100C0CAF8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				6D1641C926E5F919000ED83A /* webp */,
+				6DADA7CD26C2B574009A108A /* Fonts */,
+				6D4DDAC02696C9BD00EEC8B3 /* loading.gif */,
+				DE130DDC265E405D006195C1 /* LaunchScreen.storyboard */,
+				482631582749425C00F7E819 /* third_loading.gif */,
+				6DACCE40269EE32D00E55173 /* LaunchScreenSplashBgImg.storyboard */,
+				6DACCE42269EE36800E55173 /* TYLaunchScreenSplashBgImgVC.swift */,
+			);
+			name = Resource;
+			path = TTYY/Resource;
+			sourceTree = "<group>";
+		};
+		6D07BB7E2695A2FA00C0CAF8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6D07BB7F2695A54500C0CAF8 /* TYUserInfoModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6D1517F2266A11F300E8069A /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				6D1517F3266A11F300E8069A /* Controllers */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		6D1517F3266A11F300E8069A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6D1517FC266A125700E8069A /* TYGameVC.swift */,
+				6D2C82AE269DC04B0001836A /* TYGameWebVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6D1517F4266A11F300E8069A /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				6DADA7D726C3A8DB009A108A /* Models */,
+				6DADA7D426C3A89D009A108A /* Service */,
+				6D07BB622694009600C0CAF8 /* Views */,
+				6D1517F5266A11F400E8069A /* Controllers */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		6D1517F5266A11F400E8069A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6D1517FF266A126000E8069A /* TYMineVC.swift */,
+				6DDB3B4426C5406400466B0D /* TYContactUsVC.swift */,
+				6DDB3B4626C65F6400466B0D /* TYWithdrawVC.swift */,
+				6D07BB602693113100C0CAF8 /* TYSettingVC.swift */,
+				6D07BB65269423FF00C0CAF8 /* TYProtocolVC.swift */,
+				6D07BB672694302800C0CAF8 /* TYAboutUsVC.swift */,
+				6D4DDACA2697E75000EEC8B3 /* TYAliPaySettingVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6D1517F6266A11FB00E8069A /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				6DA9765426F1CAAC002AF71C /* Model */,
+				6DA9765326F1CA6E002AF71C /* Service */,
+				6D1641F626E9D128000ED83A /* Views */,
+				6D1517F7266A11FB00E8069A /* Controllers */,
+			);
+			path = Shop;
+			sourceTree = "<group>";
+		};
+		6D1517F7266A11FB00E8069A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6D1517F8266A124500E8069A /* TYShopVC.swift */,
+				6D1641F426E9B1D7000ED83A /* TYShopNativeVC.swift */,
+				6DA9763F26EEEC39002AF71C /* TYShopRecommendVC.swift */,
+				6DA9764126EEECCC002AF71C /* TYShopCategoryVC.swift */,
+				6D3880F726F4871700B0226D /* TYShopWebVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		6D1641C926E5F919000ED83A /* webp */ = {
+			isa = PBXGroup;
+			children = (
+				6D1641E226E5FBC2000ED83A /* launch_second@2x.webp */,
+				6D1641E326E5FBC3000ED83A /* launch_second@3x.webp */,
+				6D1641D926E5FA82000ED83A /* guide_one_bg@2x.webp */,
+				6D1641D726E5FA81000ED83A /* guide_one_bg@3x.webp */,
+				6D1641D626E5FA81000ED83A /* guide_three_bg@2x.webp */,
+				6D1641D826E5FA82000ED83A /* guide_three_bg@3x.webp */,
+				6D1641DA26E5FA83000ED83A /* guide_two_bg@2x.webp */,
+				6D1641DB26E5FA83000ED83A /* guide_two_bg@3x.webp */,
+				6D1641CD26E5F928000ED83A /* guide_one@2x.webp */,
+				6D1641CB26E5F927000ED83A /* guide_one@3x.webp */,
+				6D1641CE26E5F928000ED83A /* guide_three@2x.webp */,
+				6D1641CC26E5F927000ED83A /* guide_three@3x.webp */,
+				6D1641CA26E5F927000ED83A /* guide_two@2x.webp */,
+				6D1641CF26E5F928000ED83A /* guide_two@3x.webp */,
+			);
+			path = webp;
+			sourceTree = "<group>";
+		};
+		6D1641F626E9D128000ED83A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6D1641F726E9D142000ED83A /* TYShopSearchView.swift */,
+				6D1641F926E9E12E000ED83A /* TYShopCategoryView.swift */,
+				6D1641FB26EA0CEB000ED83A /* TYShopAllCategoryView.swift */,
+				6DA9764326EEF8B4002AF71C /* TYRecommendBannerCell.swift */,
+				6DA9764526EF28DC002AF71C /* TYShopModuleCell.swift */,
+				6DA9764726EF298F002AF71C /* TYModuleButton.swift */,
+				6DA9764926EF3556002AF71C /* TYShopGoodHeadView.swift */,
+				6DA9764B26EF3EBC002AF71C /* TYShopHotProductCell.swift */,
+				6DA9764D26EF4331002AF71C /* TYShopHotProductCollectionCell.swift */,
+				6DA9764F26F04400002AF71C /* TYShopProductTypeView.swift */,
+				6DA9765126F0837E002AF71C /* TYShopProductCell.swift */,
+				6D413EDB26F3282400AD2A6F /* TYShopCategoryTool.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6D2C82A9269D33690001836A /* STA */ = {
+			isa = PBXGroup;
+			children = (
+				6D2C82AA269D35DF0001836A /* TYSTAHelper.swift */,
+				6DC6D57926A6641D00FBE708 /* TYSTAEventDefine.swift */,
+			);
+			path = STA;
+			sourceTree = "<group>";
+		};
+		6D2C82B0269E7F9C0001836A /* ThirdSDK */ = {
+			isa = PBXGroup;
+			children = (
+				6DACCE64269F04CE00E55173 /* Taobao */,
+				6DACCE37269ECB8E00E55173 /* PDD */,
+				6D2C82BF269E84360001836A /* JD */,
+			);
+			path = ThirdSDK;
+			sourceTree = "<group>";
+		};
+		6D2C82BF269E84360001836A /* JD */ = {
+			isa = PBXGroup;
+			children = (
+				6DC6D57626A57A0E00FBE708 /* JDSDK.bundle */,
+				6DC6D57526A57A0E00FBE708 /* JDSDK.framework */,
+			);
+			path = JD;
+			sourceTree = "<group>";
+		};
+		6D6F90D326E1CA1000B1179E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F90D726E1CAFD00B1179E /* TYBaseConfigModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6D6F90D426E1CA1000B1179E /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F90D526E1CA4100B1179E /* TYHomeService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		6D8C81542692A13300120008 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6D6F90D326E1CA1000B1179E /* Model */,
+				6D6F90D426E1CA1000B1179E /* Service */,
+				6DF0CEAB26DE167C009939EE /* Views */,
+				6D8C81552692A13300120008 /* Controller */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6D8C81552692A13300120008 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6D8C81562692A14700120008 /* TYHomeVC.swift */,
+				6DF0CEA926DE1355009939EE /* TYHomeNativeVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6D8C81582692A17000120008 /* Partner */ = {
+			isa = PBXGroup;
+			children = (
+				6D8C81592692A17000120008 /* Controller */,
+			);
+			path = Partner;
+			sourceTree = "<group>";
+		};
+		6D8C81592692A17000120008 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6D8C815A2692A18500120008 /* TYPartnerVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6D8C81AA2692D36900120008 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				6D8C81AB2692D39200120008 /* TYOnlineUrlHelper.swift */,
+				6D4DDAC62696D8FF00EEC8B3 /* TYCacheHelper.swift */,
+				6D1641E626E5FDC0000ED83A /* TYCacheDefine.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		6D8C81AD2692DB8600120008 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				482631532749133900F7E819 /* CashEnvelope */,
+				6DDED2252704549600E1CF81 /* Channel */,
+				6DF5C74326A93E1600DAD3DC /* Share */,
+				6DE878D826A6E2DC00F47258 /* Category */,
+				6DE878D126A6A9D200F47258 /* CopyProduct */,
+				6DC6D56A26A516DF00FBE708 /* HuYan */,
+				6DC6D56926A516DF00FBE708 /* OnlineParams */,
+				6D2C82A9269D33690001836A /* STA */,
+				6D8C81AE2692DB8600120008 /* Web */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		6D8C81AE2692DB8600120008 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+				6D8C81AF2692DBA600120008 /* TYWebToUser.swift */,
+				6D1A39EA269BE93F00678363 /* TYWebToWeb.swift */,
+				6D2C82AC269D71160001836A /* TYWebToLog.swift */,
+				6DACCE35269EB5FA00E55173 /* TYWebToShop.swift */,
+			);
+			path = Web;
+			sourceTree = "<group>";
+		};
+		6DA9765326F1CA6E002AF71C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				6DA9765526F1CB29002AF71C /* TYShopService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		6DA9765426F1CAAC002AF71C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6DA9765726F1CFF4002AF71C /* TYShopProductModel.swift */,
+				48B2040D2732293300765361 /* TYShopRecommendType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6DACCE37269ECB8E00E55173 /* PDD */ = {
+			isa = PBXGroup;
+			children = (
+				6DC6D57326A5771E00FBE708 /* DuoduoJinbaoSDK.framework */,
+				6DC6D57126A5770900FBE708 /* DuoduoJinbaoSDK.bundle */,
+			);
+			path = PDD;
+			sourceTree = "<group>";
+		};
+		6DACCE64269F04CE00E55173 /* Taobao */ = {
+			isa = PBXGroup;
+			children = (
+				6DACCE69269F15B200E55173 /* mtopsdk_configuration.plist */,
+				6DACCE67269F095400E55173 /* yw_1222_baichuan.jpg */,
+			);
+			path = Taobao;
+			sourceTree = "<group>";
+		};
+		6DADA7CD26C2B574009A108A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				6DADA7CE26C2B574009A108A /* BEBAS.TTF */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		6DADA7D426C3A89D009A108A /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				6DADA7D526C3A8B0009A108A /* TYMineService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		6DADA7D726C3A8DB009A108A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6DADA7D826C3A918009A108A /* TYRebateInfoModel.swift */,
+				6DADA7DA26C3B545009A108A /* TYOrderInfoModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6DC6D56926A516DF00FBE708 /* OnlineParams */ = {
+			isa = PBXGroup;
+			children = (
+				6DC6D56B26A5189000FBE708 /* TYOnlineParamsHelper.swift */,
+				6DC6D56F26A51A1700FBE708 /* TYOnlineParamsModel.swift */,
+			);
+			path = OnlineParams;
+			sourceTree = "<group>";
+		};
+		6DC6D56A26A516DF00FBE708 /* HuYan */ = {
+			isa = PBXGroup;
+			children = (
+				6DC6D56D26A518B300FBE708 /* TYHuYanHelper.swift */,
+			);
+			path = HuYan;
+			sourceTree = "<group>";
+		};
+		6DDED2252704549600E1CF81 /* Channel */ = {
+			isa = PBXGroup;
+			children = (
+				6DDED2262704552200E1CF81 /* TYChannelHelper.swift */,
+				6DDED228270455A000E1CF81 /* TYChannelModel.swift */,
+				6DDED22A2704598900E1CF81 /* TYLogHelper.swift */,
+				6DDED22C2704660C00E1CF81 /* TYUrlUtils.h */,
+				6DDED22D2704660C00E1CF81 /* TYUrlUtils.m */,
+				48269F42272ACCFD00AAA02C /* TYUrlString.swift */,
+			);
+			path = Channel;
+			sourceTree = "<group>";
+		};
+		6DE878D126A6A9D200F47258 /* CopyProduct */ = {
+			isa = PBXGroup;
+			children = (
+				6DE878D226A6AA2000F47258 /* TYCopyProductHelper.swift */,
+				6DE878D626A6B38B00F47258 /* TYCopyProductView.swift */,
+				6DE878D426A6AD1100F47258 /* TYProductInfoModel.swift */,
+			);
+			path = CopyProduct;
+			sourceTree = "<group>";
+		};
+		6DE878D826A6E2DC00F47258 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				6DE878D926A6E32600F47258 /* UIApplication+TYInfo.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		6DF0CEAB26DE167C009939EE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				6DF0CEAC26DE168C009939EE /* TYHomeMoneyView.swift */,
+				6DF0CEAE26DE330F009939EE /* TYHomeSearchView.swift */,
+				6D6F90AF26DF669600B1179E /* TYHomeFlowView.swift */,
+				6D6F90B126E09F0600B1179E /* TYHomePlatformView.swift */,
+				6D1641E826E60252000ED83A /* TYGuideView.swift */,
+				6D1641EA26E70598000ED83A /* TYHomeSearchHistoryView.swift */,
+				6D1641EC26E73217000ED83A /* TYSearchHistoryCell.swift */,
+				6D1641EE26E7513A000ED83A /* TYClearHistoryView.swift */,
+				48A4CED4273591590090DF31 /* TYPlatformCellView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		6DF5C74326A93E1600DAD3DC /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				6DF5C74626A93F0400DAD3DC /* View */,
+				6DF5C74426A93EA000DAD3DC /* TYShareManager.swift */,
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
+		6DF5C74626A93F0400DAD3DC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6DF5C74726A9414A00DAD3DC /* TYShareView.swift */,
+				6DF5C74926A944C700DAD3DC /* TYShareButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DE130DC5265E405B006195C1 = {
+			isa = PBXGroup;
+			children = (
+				DE130DD0265E405B006195C1 /* TTYY */,
+				6D07BB7B2695912100C0CAF8 /* Resource */,
+				48CC35B2273AD27A0091F4A1 /* NotificationService */,
+				DE130DCF265E405B006195C1 /* Products */,
+				566C8AA6900A45952E6AD962 /* Pods */,
+				DE9EEFB8265E78AC003D9CD2 /* Supporting Files */,
+				5C4151429A51C251BB15D366 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DE130DCF265E405B006195C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE130DCE265E405B006195C1 /* TTYY.app */,
+				48CC35B1273AD27A0091F4A1 /* NotificationService.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE130DD0265E405B006195C1 /* TTYY */ = {
+			isa = PBXGroup;
+			children = (
+				48CC9F3C2739639A0091F4A1 /* Helper */,
+				48B2B8D32730E02300765361 /* Explosive */,
+				48B26D9D27303F4700765361 /* Utils */,
+				6D07BB732695534700C0CAF8 /* TTYY.entitlements */,
+				6D2C82B0269E7F9C0001836A /* ThirdSDK */,
+				6D07BB6B2694411400C0CAF8 /* Login */,
+				6D8C81AD2692DB8600120008 /* Business */,
+				6D8C81582692A17000120008 /* Partner */,
+				6D8C81542692A13300120008 /* Home */,
+				6D1517F6266A11FB00E8069A /* Shop */,
+				6D1517F2266A11F300E8069A /* Game */,
+				6D1517F4266A11F300E8069A /* Mine */,
+				DE9EEFEE265F7E2D003D9CD2 /* Root */,
+				DE130DD1265E405B006195C1 /* AppDelegate.swift */,
+				6D07BB7426957CCA00C0CAF8 /* TYAppDelegateHelper.swift */,
+				DE130DDA265E405D006195C1 /* Assets.xcassets */,
+				48CC35C2273ADC510091F4A1 /* TYAppDelegate+GT.swift */,
+			);
+			path = TTYY;
+			sourceTree = "<group>";
+		};
+		DE9EEFB8265E78AC003D9CD2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE130DDF265E405D006195C1 /* Info.plist */,
+				DE9EEFB9265E78AC003D9CD2 /* TTYY-Prefix.pch */,
+				DE9EEFBA265E78AC003D9CD2 /* TTYY-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE9EEFEE265F7E2D003D9CD2 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				DE9EEFFF265F8009003D9CD2 /* Define */,
+				6D8C81AA2692D36900120008 /* Tools */,
+				6D1517DF266A07EE00E8069A /* TYBaseVC.swift */,
+				6D1517E8266A08F000E8069A /* TYTabBarVC.swift */,
+				6D1517EE266A0BB500E8069A /* TYNavVC.swift */,
+				6DF5C74126A7BB3800DAD3DC /* TYPrivacyViewController.swift */,
+				DE9EEFF1265F7E2D003D9CD2 /* View */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		DE9EEFF1265F7E2D003D9CD2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6D1517E4266A086200E8069A /* TYNavBarView.swift */,
+				6D1517EB266A0B4200E8069A /* TYTabBarItem.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DE9EEFFF265F8009003D9CD2 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				DE9EF000265F8027003D9CD2 /* UIDefine.swift */,
+				6D07BB7626957D2C00C0CAF8 /* TYThirdAccount.swift */,
+				DE9EF003265F808C003D9CD2 /* NotificationDefine.swift */,
+				6DACCE3E269EDA4800E55173 /* TYUMengDefine.swift */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		48CC35B0273AD27A0091F4A1 /* NotificationService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48CC35B9273AD27A0091F4A1 /* Build configuration list for PBXNativeTarget "NotificationService" */;
+			buildPhases = (
+				DFC19644C28CB57C857E5D3B /* [CP] Check Pods Manifest.lock */,
+				48CC35AD273AD27A0091F4A1 /* Sources */,
+				48CC35AE273AD27A0091F4A1 /* Frameworks */,
+				48CC35AF273AD27A0091F4A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationService;
+			productName = NotificationService;
+			productReference = 48CC35B1273AD27A0091F4A1 /* NotificationService.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		DE130DCD265E405B006195C1 /* TTYY */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE130DE2265E405D006195C1 /* Build configuration list for PBXNativeTarget "TTYY" */;
+			buildPhases = (
+				47A3219BB183A6F7108A2CF8 /* [CP] Check Pods Manifest.lock */,
+				DE130DCA265E405B006195C1 /* Sources */,
+				DE130DCB265E405B006195C1 /* Frameworks */,
+				DE130DCC265E405B006195C1 /* Resources */,
+				F2EB0F880BE4CE331DAE253A /* [CP] Copy Pods Resources */,
+				48CC35BC273AD27A0091F4A1 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48CC35B7273AD27A0091F4A1 /* PBXTargetDependency */,
+			);
+			name = TTYY;
+			productName = TTYY;
+			productReference = DE130DCE265E405B006195C1 /* TTYY.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE130DC6265E405B006195C1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TY;
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					48CC35B0273AD27A0091F4A1 = {
+						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
+					};
+					DE130DCD265E405B006195C1 = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+				};
+			};
+			buildConfigurationList = DE130DC9265E405B006195C1 /* Build configuration list for PBXProject "TTYY" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE130DC5265E405B006195C1;
+			productRefGroup = DE130DCF265E405B006195C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE130DCD265E405B006195C1 /* TTYY */,
+				48CC35B0273AD27A0091F4A1 /* NotificationService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48CC35AF273AD27A0091F4A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE130DCC265E405B006195C1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D2C82CB269E905A0001836A /* loading.gif in Resources */,
+				6D1641D126E5F928000ED83A /* guide_one@3x.webp in Resources */,
+				DE130DDE265E405D006195C1 /* LaunchScreen.storyboard in Resources */,
+				6D1641D226E5F928000ED83A /* guide_three@3x.webp in Resources */,
+				6D1641DE26E5FA83000ED83A /* guide_three_bg@3x.webp in Resources */,
+				6D1641E026E5FA83000ED83A /* guide_two_bg@2x.webp in Resources */,
+				6D1641D026E5F928000ED83A /* guide_two@2x.webp in Resources */,
+				6D1641DF26E5FA83000ED83A /* guide_one_bg@2x.webp in Resources */,
+				6DC6D57226A5770900FBE708 /* DuoduoJinbaoSDK.bundle in Resources */,
+				6DACCE41269EE32D00E55173 /* LaunchScreenSplashBgImg.storyboard in Resources */,
+				6D1641D526E5F928000ED83A /* guide_two@3x.webp in Resources */,
+				6DC6D57826A57A0E00FBE708 /* JDSDK.bundle in Resources */,
+				6D1641DC26E5FA83000ED83A /* guide_three_bg@2x.webp in Resources */,
+				482631592749425C00F7E819 /* third_loading.gif in Resources */,
+				6D1641DD26E5FA83000ED83A /* guide_one_bg@3x.webp in Resources */,
+				6D1641D426E5F928000ED83A /* guide_three@2x.webp in Resources */,
+				6DADA7CF26C2B574009A108A /* BEBAS.TTF in Resources */,
+				6D1641E126E5FA83000ED83A /* guide_two_bg@3x.webp in Resources */,
+				6DACCE68269F095400E55173 /* yw_1222_baichuan.jpg in Resources */,
+				DE130DDB265E405D006195C1 /* Assets.xcassets in Resources */,
+				6DACCE6A269F15B200E55173 /* mtopsdk_configuration.plist in Resources */,
+				6D1641D326E5F928000ED83A /* guide_one@2x.webp in Resources */,
+				6D1641E426E5FBC3000ED83A /* launch_second@2x.webp in Resources */,
+				6D1641E526E5FBC3000ED83A /* launch_second@3x.webp in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		47A3219BB183A6F7108A2CF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TTYY-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFC19644C28CB57C857E5D3B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NotificationService-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2EB0F880BE4CE331DAE253A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TTYY/Pods-TTYY-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TTYY/Pods-TTYY-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TTYY/Pods-TTYY-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		48CC35AD273AD27A0091F4A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48CC35B4273AD27A0091F4A1 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE130DCA265E405B006195C1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D1641E926E60252000ED83A /* TYGuideView.swift in Sources */,
+				6DF5C74226A7BB3800DAD3DC /* TYPrivacyViewController.swift in Sources */,
+				6D07BB612693113100C0CAF8 /* TYSettingVC.swift in Sources */,
+				6D1641FA26E9E12F000ED83A /* TYShopCategoryView.swift in Sources */,
+				6D2C82AD269D71160001836A /* TYWebToLog.swift in Sources */,
+				6D6F90D826E1CAFD00B1179E /* TYBaseConfigModel.swift in Sources */,
+				6D07BB682694302800C0CAF8 /* TYAboutUsVC.swift in Sources */,
+				6DA9764C26EF3EBC002AF71C /* TYShopHotProductCell.swift in Sources */,
+				6DF0CEAA26DE1356009939EE /* TYHomeNativeVC.swift in Sources */,
+				6D07BB66269423FF00C0CAF8 /* TYProtocolVC.swift in Sources */,
+				6DACCE36269EB5FA00E55173 /* TYWebToShop.swift in Sources */,
+				6DADA7D126C37116009A108A /* TYMineDetailCell.swift in Sources */,
+				6D07BB6F2694453800C0CAF8 /* TYLoginPrivacyView.swift in Sources */,
+				6D07BB7526957CCA00C0CAF8 /* TYAppDelegateHelper.swift in Sources */,
+				6D1641EF26E7513A000ED83A /* TYClearHistoryView.swift in Sources */,
+				6D4DDACB2697E75000EEC8B3 /* TYAliPaySettingVC.swift in Sources */,
+				6DC6D56E26A518B300FBE708 /* TYHuYanHelper.swift in Sources */,
+				6DADA7D626C3A8B1009A108A /* TYMineService.swift in Sources */,
+				48B26D9F27303F5100765361 /* UIView+Extension.swift in Sources */,
+				6DACCE43269EE36800E55173 /* TYLaunchScreenSplashBgImgVC.swift in Sources */,
+				6DE878D726A6B38B00F47258 /* TYCopyProductView.swift in Sources */,
+				6D8C815B2692A18500120008 /* TYPartnerVC.swift in Sources */,
+				6DF0CEAF26DE330F009939EE /* TYHomeSearchView.swift in Sources */,
+				6DDED22E2704660C00E1CF81 /* TYUrlUtils.m in Sources */,
+				6D1517FD266A125700E8069A /* TYGameVC.swift in Sources */,
+				6D1517E9266A08F000E8069A /* TYTabBarVC.swift in Sources */,
+				6D8C81572692A14700120008 /* TYHomeVC.swift in Sources */,
+				6DC6D57026A51A1700FBE708 /* TYOnlineParamsModel.swift in Sources */,
+				6D1641E726E5FDC0000ED83A /* TYCacheDefine.swift in Sources */,
+				6DADA7CC26C2B076009A108A /* TYInComeCell.swift in Sources */,
+				6DC6D57A26A6641D00FBE708 /* TYSTAEventDefine.swift in Sources */,
+				48CC9F40273968B50091F4A1 /* TYPlatformType.swift in Sources */,
+				6D6F90D626E1CA4200B1179E /* TYHomeService.swift in Sources */,
+				6DA9764426EEF8B4002AF71C /* TYRecommendBannerCell.swift in Sources */,
+				6DF5C74A26A944C700DAD3DC /* TYShareButton.swift in Sources */,
+				6D6F90B026DF669700B1179E /* TYHomeFlowView.swift in Sources */,
+				6D1641FC26EA0CEB000ED83A /* TYShopAllCategoryView.swift in Sources */,
+				6DADA7DB26C3B545009A108A /* TYOrderInfoModel.swift in Sources */,
+				6DE878D326A6AA2000F47258 /* TYCopyProductHelper.swift in Sources */,
+				DE9EF004265F808C003D9CD2 /* NotificationDefine.swift in Sources */,
+				48A4CED52735915A0090DF31 /* TYPlatformCellView.swift in Sources */,
+				6DADA7DD26C3BDE9009A108A /* TYOrderCell.swift in Sources */,
+				48269F43272ACCFD00AAA02C /* TYUrlString.swift in Sources */,
+				6DA9765026F04400002AF71C /* TYShopProductTypeView.swift in Sources */,
+				6D1641EB26E70598000ED83A /* TYHomeSearchHistoryView.swift in Sources */,
+				6D8C81AC2692D39200120008 /* TYOnlineUrlHelper.swift in Sources */,
+				6D8C81B02692DBA600120008 /* TYWebToUser.swift in Sources */,
+				6D2C82AB269D35DF0001836A /* TYSTAHelper.swift in Sources */,
+				6D07BB822695A73F00C0CAF8 /* TYUserInfoHelper.swift in Sources */,
+				6D4DDAC72696D8FF00EEC8B3 /* TYCacheHelper.swift in Sources */,
+				6DA9764026EEEC39002AF71C /* TYShopRecommendVC.swift in Sources */,
+				6D07BB7726957D2C00C0CAF8 /* TYThirdAccount.swift in Sources */,
+				6D07BB802695A54500C0CAF8 /* TYUserInfoModel.swift in Sources */,
+				6DA9764626EF28DD002AF71C /* TYShopModuleCell.swift in Sources */,
+				48A4385B2732ED440090DF31 /* TYExplosiveProductCell.swift in Sources */,
+				6D1517EC266A0B4200E8069A /* TYTabBarItem.swift in Sources */,
+				48CC35C3273ADC510091F4A1 /* TYAppDelegate+GT.swift in Sources */,
+				6DDB3B4526C5406400466B0D /* TYContactUsVC.swift in Sources */,
+				48A6E606273CB1A300508394 /* TYExplosiveService.swift in Sources */,
+				6DE878D526A6AD1100F47258 /* TYProductInfoModel.swift in Sources */,
+				48A6E5F3273BD3F300508394 /* TYPushInfoHelper.swift in Sources */,
+				6D1517F9266A124500E8069A /* TYShopVC.swift in Sources */,
+				6D1641F526E9B1D7000ED83A /* TYShopNativeVC.swift in Sources */,
+				6D2C82AF269DC04B0001836A /* TYGameWebVC.swift in Sources */,
+				6DACCE3F269EDA4800E55173 /* TYUMengDefine.swift in Sources */,
+				6D3880F826F4871700B0226D /* TYShopWebVC.swift in Sources */,
+				6DE878DA26A6E32600F47258 /* UIApplication+TYInfo.swift in Sources */,
+				48B2B8D82730E0B000765361 /* TYExplosiveProductsController.swift in Sources */,
+				6D413EDC26F3282400AD2A6F /* TYShopCategoryTool.swift in Sources */,
+				6D4DDAC52696D1EC00EEC8B3 /* TYBindInviteCodeVC.swift in Sources */,
+				6D1641F826E9D142000ED83A /* TYShopSearchView.swift in Sources */,
+				6DA9764E26EF4331002AF71C /* TYShopHotProductCollectionCell.swift in Sources */,
+				DE9EF001265F8027003D9CD2 /* UIDefine.swift in Sources */,
+				6DADA7D926C3A918009A108A /* TYRebateInfoModel.swift in Sources */,
+				6DC6D56C26A5189000FBE708 /* TYOnlineParamsHelper.swift in Sources */,
+				6D4DDAC92696FC8800EEC8B3 /* TYBindSkipButton.swift in Sources */,
+				6D1517E5266A086200E8069A /* TYNavBarView.swift in Sources */,
+				6DA9764A26EF3556002AF71C /* TYShopGoodHeadView.swift in Sources */,
+				6D1A39EB269BE93F00678363 /* TYWebToWeb.swift in Sources */,
+				6DA9764826EF298F002AF71C /* TYModuleButton.swift in Sources */,
+				6DDED22B2704598900E1CF81 /* TYLogHelper.swift in Sources */,
+				6D1517E0266A07EE00E8069A /* TYBaseVC.swift in Sources */,
+				6D07BB64269400A800C0CAF8 /* TYSettingCell.swift in Sources */,
+				6D1641ED26E73217000ED83A /* TYSearchHistoryCell.swift in Sources */,
+				4826315727493EB800F7E819 /* TYThirdLoadingView.swift in Sources */,
+				48263155274913CD00F7E819 /* TYCashEnvelopePromptView.swift in Sources */,
+				6DADA7D326C37477009A108A /* TYMineBtn.swift in Sources */,
+				6D07BB7A2695844D00C0CAF8 /* TYLoginService.swift in Sources */,
+				6DF5C74526A93EA000DAD3DC /* TYShareManager.swift in Sources */,
+				6DF5C74826A9414A00DAD3DC /* TYShareView.swift in Sources */,
+				6D151800266A126000E8069A /* TYMineVC.swift in Sources */,
+				6D07BB6A2694405700C0CAF8 /* TYLoginVC.swift in Sources */,
+				6D6F90B226E09F0700B1179E /* TYHomePlatformView.swift in Sources */,
+				6D1517EF266A0BB500E8069A /* TYNavVC.swift in Sources */,
+				6DA9765626F1CB29002AF71C /* TYShopService.swift in Sources */,
+				48B2B8E12731979A00765361 /* TYExplosiveHeader.swift in Sources */,
+				48CC9F3E273963C00091F4A1 /* TYThirdConvertHelper.swift in Sources */,
+				6DF0CEAD26DE168C009939EE /* TYHomeMoneyView.swift in Sources */,
+				DE130DD2265E405B006195C1 /* AppDelegate.swift in Sources */,
+				6DDB3B4726C65F6400466B0D /* TYWithdrawVC.swift in Sources */,
+				6DA9764226EEECCC002AF71C /* TYShopCategoryVC.swift in Sources */,
+				6DDED229270455A000E1CF81 /* TYChannelModel.swift in Sources */,
+				48B2040E2732293300765361 /* TYShopRecommendType.swift in Sources */,
+				6DA9765826F1CFF4002AF71C /* TYShopProductModel.swift in Sources */,
+				6DDED2272704552200E1CF81 /* TYChannelHelper.swift in Sources */,
+				6D07BB7226954CE000C0CAF8 /* TYAppleLoginHelper.swift in Sources */,
+				6DA9765226F0837E002AF71C /* TYShopProductCell.swift in Sources */,
+				6DADA7CA26C25B27009A108A /* TYMineHeadCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		48CC35B7273AD27A0091F4A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 48CC35B0273AD27A0091F4A1 /* NotificationService */;
+			targetProxy = 48CC35B6273AD27A0091F4A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE130DDC265E405D006195C1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE130DDD265E405D006195C1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		48CC35BA273AD27A0091F4A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81F8E9547591AAF1C8E71F5A /* Pods-NotificationService.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.0.7.0;
+				DEVELOPMENT_TEAM = UZWC3Z385B;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.7;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ifmoc.ttyy.NotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = TTYY_NotificationService_Dis_Profile3;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "NotificationService/NotificationService-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		48CC35BB273AD27A0091F4A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 797C718A2FC857C0D86BFF66 /* Pods-NotificationService.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.0.7.0;
+				DEVELOPMENT_TEAM = UZWC3Z385B;
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0.7;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ifmoc.ttyy.NotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = TTYY_NotificationService_Dis_Profile3;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "NotificationService/NotificationService-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE130DE0265E405D006195C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE130DE1265E405D006195C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE130DE3265E405D006195C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0596C781B0156AAE2201C795 /* Pods-TTYY.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TTYY/TTYY.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.0.7.0;
+				DEVELOPMENT_TEAM = UZWC3Z385B;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TTYY/ThirdSDK",
+					"$(PROJECT_DIR)/TTYY/ThirdSDK/JD",
+					"$(PROJECT_DIR)/TTYY/ThirdSDK/PDD",
+				);
+				GCC_PREFIX_HEADER = "Supporting Files/TTYY-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AesGcm/AesGcm.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BaseModule/BaseModule.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Cache/Cache.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/KakaJSON/KakaJSON.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/LookinServer/LookinServer.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD/MBProgressHUD.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MJExtension/MJExtension.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Masonry/Masonry.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReactiveCocoa/ReactiveCocoa.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RxCocoa/RxCocoa.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RxRelay/RxRelay.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RxSwift/RxSwift.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage/SDWebImage.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SQLite.swift/SQLite.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SensorsAnalyticsSDK/SensorsAnalyticsSDK.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SnapKit/SnapKit.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YJEncryptSwift/YJEncryptSwift.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YJSWebModule/YJSWebModule.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YJShareSDK/YJShareSDK.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YYCache/YYCache.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YYImage/YYImage.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YYModel/YYModel.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YYWebImage/YYWebImage.framework/Headers\"",
+					"\"$(PROJECT_DIR)/TTYY/ThirdSDK/JD/JDSDK.framework/Modules\"",
+				);
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/YJShareSDK/YJShareSDK/WeChatSDK\"",
+					"\"${PODS_ROOT}/YJShareSDK/YJShareSDK/libWeiboSDK\"",
+				);
+				MARKETING_VERSION = 1.0.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"WeChatSDK\"",
+					"-l\"WeiboSDK\"",
+					"-l\"c++\"",
+					"-l\"icucore\"",
+					"-l\"resolv\"",
+					"-l\"sqlite3\"",
+					"-l\"sqlite3.0\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AesGcm\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"AlibabaAuthEntrance\"",
+					"-framework",
+					"\"AlibabaAuthExt\"",
+					"-framework",
+					"\"AlibabaAuthSDK\"",
+					"-framework",
+					"\"AlibcLinkPartnerSDK\"",
+					"-framework",
+					"\"AlibcTradeBiz\"",
+					"-framework",
+					"\"AlibcTradeSDK\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"BaseModule\"",
+					"-framework",
+					"\"Bugly\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"Cache\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreMotion\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"JavaScriptCore\"",
+					"-framework",
+					"\"KakaJSON\"",
+					"-framework",
+					"\"LookinServer\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"MJExtension\"",
+					"-framework",
+					"\"Masonry\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"MtopSDK\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"ReactiveCocoa\"",
+					"-framework",
+					"\"RxCocoa\"",
+					"-framework",
+					"\"RxRelay\"",
+					"-framework",
+					"\"RxSwift\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"SGAVMP\"",
+					"-framework",
+					"\"SGMain\"",
+					"-framework",
+					"\"SGMiddleTier\"",
+					"-framework",
+					"\"SGSecurityBody\"",
+					"-framework",
+					"\"SQLite\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SecurityGuardSDK\"",
+					"-framework",
+					"\"SensorsAnalyticsSDK\"",
+					"-framework",
+					"\"SensorsFocus\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"TencentOpenAPI\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"UMAPM\"",
+					"-framework",
+					"\"UMCommon\"",
+					"-framework",
+					"\"UMDevice\"",
+					"-framework",
+					"\"UTDID\"",
+					"-framework",
+					"\"UTMini\"",
+					"-framework",
+					"\"WebKit\"",
+					"-framework",
+					"\"WebP\"",
+					"-framework",
+					"\"WindVane\"",
+					"-framework",
+					"\"WindVaneBasic\"",
+					"-framework",
+					"\"WindVaneCore\"",
+					"-framework",
+					"\"YJEncryptSwift\"",
+					"-framework",
+					"\"YJSWebModule\"",
+					"-framework",
+					"\"YJShareSDK\"",
+					"-framework",
+					"\"YYCache\"",
+					"-framework",
+					"\"YYImage\"",
+					"-framework",
+					"\"YYModel\"",
+					"-framework",
+					"\"YYWebImage\"",
+					"-framework",
+					"\"mtopcoreopen\"",
+					"-framework",
+					"\"mtopext\"",
+					"-framework",
+					"\"tingyunApp\"",
+					"-weak_framework",
+					"\"AdSupport\"",
+					"-weak_framework",
+					"\"Combine\"",
+					"-weak_framework",
+					"\"SwiftUI\"",
+					"-weak_framework",
+					"\"WebKit\"",
+					"-lstdc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ifmoc.ttyy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = TTYY_appstore_dis;
+				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/TTYY-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE130DE4265E405D006195C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FAEEA5F3511CAB2FD0BE5F1 /* Pods-TTYY.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = TTYY/TTYY.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.0.7.0;
+				DEVELOPMENT_TEAM = UZWC3Z385B;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/TTYY/ThirdSDK",
+					"$(PROJECT_DIR)/TTYY/ThirdSDK/JD",
+					"$(PROJECT_DIR)/TTYY/ThirdSDK/PDD",
+				);
+				GCC_PREFIX_HEADER = "Supporting Files/TTYY-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/AesGcm/AesGcm.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Alamofire/Alamofire.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/BaseModule/BaseModule.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Cache/Cache.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/KakaJSON/KakaJSON.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MBProgressHUD/MBProgressHUD.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/MJExtension/MJExtension.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Masonry/Masonry.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/ReactiveCocoa/ReactiveCocoa.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RxCocoa/RxCocoa.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RxRelay/RxRelay.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/RxSwift/RxSwift.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SDWebImage/SDWebImage.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SQLite.swift/SQLite.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SensorsAnalyticsSDK/SensorsAnalyticsSDK.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SnapKit/SnapKit.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YJEncryptSwift/YJEncryptSwift.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YJSWebModule/YJSWebModule.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YJShareSDK/YJShareSDK.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YYCache/YYCache.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YYImage/YYImage.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YYModel/YYModel.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/YYWebImage/YYWebImage.framework/Headers\"",
+					"\"$(PROJECT_DIR)/TTYY/ThirdSDK/JD/JDSDK.framework/Modules\"",
+				);
+				INFOPLIST_FILE = "Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/YJShareSDK/YJShareSDK/WeChatSDK\"",
+					"\"${PODS_ROOT}/YJShareSDK/YJShareSDK/libWeiboSDK\"",
+				);
+				MARKETING_VERSION = 1.0.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"WeChatSDK\"",
+					"-l\"WeiboSDK\"",
+					"-l\"c++\"",
+					"-l\"icucore\"",
+					"-l\"resolv\"",
+					"-l\"sqlite3\"",
+					"-l\"sqlite3.0\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AFNetworking\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AesGcm\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"AlibabaAuthEntrance\"",
+					"-framework",
+					"\"AlibabaAuthExt\"",
+					"-framework",
+					"\"AlibabaAuthSDK\"",
+					"-framework",
+					"\"AlibcLinkPartnerSDK\"",
+					"-framework",
+					"\"AlibcTradeBiz\"",
+					"-framework",
+					"\"AlibcTradeSDK\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"BaseModule\"",
+					"-framework",
+					"\"Bugly\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"Cache\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreMotion\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"JavaScriptCore\"",
+					"-framework",
+					"\"KakaJSON\"",
+					"-framework",
+					"\"MBProgressHUD\"",
+					"-framework",
+					"\"MJExtension\"",
+					"-framework",
+					"\"Masonry\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"MtopSDK\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"ReactiveCocoa\"",
+					"-framework",
+					"\"RxCocoa\"",
+					"-framework",
+					"\"RxRelay\"",
+					"-framework",
+					"\"RxSwift\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"SGAVMP\"",
+					"-framework",
+					"\"SGMain\"",
+					"-framework",
+					"\"SGMiddleTier\"",
+					"-framework",
+					"\"SGSecurityBody\"",
+					"-framework",
+					"\"SQLite\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"SecurityGuardSDK\"",
+					"-framework",
+					"\"SensorsAnalyticsSDK\"",
+					"-framework",
+					"\"SensorsFocus\"",
+					"-framework",
+					"\"SnapKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"TencentOpenAPI\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"UMAPM\"",
+					"-framework",
+					"\"UMCommon\"",
+					"-framework",
+					"\"UMDevice\"",
+					"-framework",
+					"\"UTDID\"",
+					"-framework",
+					"\"UTMini\"",
+					"-framework",
+					"\"WebKit\"",
+					"-framework",
+					"\"WebP\"",
+					"-framework",
+					"\"WindVane\"",
+					"-framework",
+					"\"WindVaneBasic\"",
+					"-framework",
+					"\"WindVaneCore\"",
+					"-framework",
+					"\"YJEncryptSwift\"",
+					"-framework",
+					"\"YJSWebModule\"",
+					"-framework",
+					"\"YJShareSDK\"",
+					"-framework",
+					"\"YYCache\"",
+					"-framework",
+					"\"YYImage\"",
+					"-framework",
+					"\"YYModel\"",
+					"-framework",
+					"\"YYWebImage\"",
+					"-framework",
+					"\"mtopcoreopen\"",
+					"-framework",
+					"\"mtopext\"",
+					"-framework",
+					"\"tingyunApp\"",
+					"-weak_framework",
+					"\"AdSupport\"",
+					"-weak_framework",
+					"\"Combine\"",
+					"-weak_framework",
+					"\"SwiftUI\"",
+					"-weak_framework",
+					"\"WebKit\"",
+					"-lstdc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ifmoc.ttyy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = TTYY_appstore_dis;
+				SWIFT_OBJC_BRIDGING_HEADER = "Supporting Files/TTYY-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		48CC35B9273AD27A0091F4A1 /* Build configuration list for PBXNativeTarget "NotificationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48CC35BA273AD27A0091F4A1 /* Debug */,
+				48CC35BB273AD27A0091F4A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE130DC9265E405B006195C1 /* Build configuration list for PBXProject "TTYY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE130DE0265E405D006195C1 /* Debug */,
+				DE130DE1265E405D006195C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE130DE2265E405D006195C1 /* Build configuration list for PBXNativeTarget "TTYY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE130DE3265E405D006195C1 /* Debug */,
+				DE130DE4265E405D006195C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE130DC6265E405B006195C1 /* Project object */;
+}

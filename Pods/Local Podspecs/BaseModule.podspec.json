@@ -1,0 +1,342 @@
+{
+  "name": "BaseModule",
+  "version": "4.25.3",
+  "summary": "YouShaQi BaseModule",
+  "description": "YouShaQi BaseModule",
+  "homepage": "https://gitlab.ushaqi.com/iOS/BaseModule",
+  "license": "MIT",
+  "authors": {
+    "tangjj": "tangjj@1391.com"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "pod_target_xcconfig": {
+    "SWIFT_COMPILATION_MODE": "wholemodule"
+  },
+  "source": {
+    "git": "https://gitlab.ushaqi.com/iOS/BaseModule.git",
+    "tag": "4.25.3"
+  },
+  "source_files": "BaseModule.h",
+  "public_header_files": "BaseModule.h",
+  "subspecs": [
+    {
+      "name": "Base",
+      "dependencies": {
+        "MJExtension": [
+
+        ],
+        "MBProgressHUD": [
+
+        ],
+        "SDWebImage": [
+
+        ],
+        "YYWebImage": [
+
+        ],
+        "YYImage/WebP": [
+
+        ],
+        "Masonry": [
+
+        ],
+        "AFNetworking": [
+
+        ],
+        "YYModel": [
+
+        ],
+        "YYCache": [
+
+        ],
+        "Alamofire": [
+
+        ],
+        "KakaJSON": [
+
+        ],
+        "SnapKit": [
+
+        ],
+        "Cache": [
+
+        ],
+        "RxSwift": [
+
+        ],
+        "RxCocoa": [
+
+        ],
+        "AesGcm": [
+
+        ],
+        "SQLite.swift": [
+
+        ],
+        "YJEncryptSwift": [
+
+        ],
+        "UMDevice": [
+
+        ],
+        "UMAPM": [
+
+        ],
+        "UMCommon": [
+          "7.2.5"
+        ],
+        "SensorsAnalyticsSDK": [
+          "3.0.0"
+        ]
+      },
+      "frameworks": [
+        "UIKit",
+        "Foundation",
+        "CoreGraphics"
+      ],
+      "subspecs": [
+        {
+          "name": "no-arc",
+          "source_files": [
+            "Base/Tool/FBEncryptorAES/FBEncryptorAES.m",
+            "Base/Tool/FBEncryptorAES/NSData+Base64.m",
+            "Base/Tool/FBEncryptorAES/FBEncryptorAES.h",
+            "Base/Tool/FBEncryptorAES/NSData+Base64.h",
+            "Base/View/Control/SvGifView.h",
+            "Base/View/Control/SvGifView.m"
+          ],
+          "requires_arc": false,
+          "compiler_flags": "-fno-objc-arc"
+        },
+        {
+          "name": "Category",
+          "subspecs": [
+            {
+              "name": "OC",
+              "source_files": "Base/Category/OC/*.{h,m,swift}",
+              "public_header_files": "Base/Category/OC/*.h"
+            },
+            {
+              "name": "Swift",
+              "source_files": "Base/Category/Swift/*.{h,m,swift}",
+              "public_header_files": "Base/Category/Swift/*.h"
+            }
+          ]
+        },
+        {
+          "name": "Define",
+          "subspecs": [
+            {
+              "name": "OC",
+              "source_files": "Base/Define/OC/*.{h,m,swift}",
+              "public_header_files": "Base/Define/OC/*.h"
+            },
+            {
+              "name": "Swift",
+              "source_files": "Base/Define/Swift/*.{h,m,swift}",
+              "public_header_files": "Base/Define/Swift/*.h"
+            }
+          ]
+        },
+        {
+          "name": "Tool",
+          "subspecs": [
+            {
+              "name": "QRCode",
+              "source_files": "Base/Tool/QRCode/*.{h,m,swift}",
+              "public_header_files": "Base/Tool/QRCode/*.h"
+            },
+            {
+              "name": "DataBase",
+              "source_files": "Base/Tool/DataBase/*.{h,m,swift}",
+              "public_header_files": "Base/Tool/DataBase/*.h"
+            },
+            {
+              "name": "BI",
+              "source_files": "Base/Tool/BI/*.{h,m,swift}",
+              "public_header_files": "Base/Tool/BI/*.h"
+            },
+            {
+              "name": "FBEncryptorAES",
+              "exclude_files": [
+                "Base/Tool/FBEncryptorAES/FBEncryptorAES.m",
+                "Base/Tool/FBEncryptorAES/NSData+Base64.m",
+                "Base/Tool/FBEncryptorAES/FBEncryptorAES.h",
+                "Base/Tool/FBEncryptorAES/NSData+Base64.h",
+                "Base/View/Control/SvGifView.h",
+                "Base/View/Control/SvGifView.m"
+              ],
+              "source_files": "Base/Tool/FBEncryptorAES/*.{h,m,swift}",
+              "public_header_files": "Base/Tool/FBEncryptorAES/*.h"
+            },
+            {
+              "name": "Idfa",
+              "source_files": "Base/Tool/Idfa/*.{h,m,swift}",
+              "public_header_files": "Base/Tool/Idfa/*.h"
+            },
+            {
+              "name": "Language",
+              "source_files": "Base/Tool/Language/*.{h,m,swift}",
+              "public_header_files": "Base/Tool/Language/*.h"
+            },
+            {
+              "name": "Network",
+              "source_files": "Base/Tool/Network/*.{h,m,swift}",
+              "public_header_files": "Base/Tool/Network/*.h",
+              "subspecs": [
+                {
+                  "name": "Tools",
+                  "source_files": "Base/Tool/Network/Tools/*.{h,m,swift}",
+                  "public_header_files": "Base/Tool/Network/Tools/*.h"
+                },
+                {
+                  "name": "Category",
+                  "source_files": "Base/Tool/Network/Category/*.{h,m,swift}",
+                  "public_header_files": "Base/Tool/Network/Category/*.h"
+                },
+                {
+                  "name": "Model",
+                  "source_files": "Base/Tool/Network/Model/*.{h,m,swift}",
+                  "public_header_files": "Base/Tool/Network/Model/*.h"
+                },
+                {
+                  "name": "Service",
+                  "source_files": "Base/Tool/Network/Service/*.{h,m,swift}",
+                  "public_header_files": "Base/Tool/Network/Service/*.h",
+                  "subspecs": [
+                    {
+                      "name": "Base",
+                      "source_files": "Base/Tool/Network/Service/Base/*.{h,m,swift}",
+                      "public_header_files": "Base/Tool/Network/Service/Base/*.h"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "ImagePicker",
+              "source_files": "Base/Tool/ImagePicker/*.swift"
+            }
+          ]
+        },
+        {
+          "name": "View",
+          "subspecs": [
+            {
+              "name": "Base",
+              "source_files": "Base/View/Base/*.{h,m,swift}",
+              "public_header_files": "Base/View/Base/*.h",
+              "subspecs": [
+                {
+                  "name": "Private",
+                  "source_files": "Base/View/Base/Private/*.{h,m,swift}"
+                }
+              ]
+            },
+            {
+              "name": "Category",
+              "source_files": "Base/View/Category/*.{h,m,swift}",
+              "public_header_files": "Base/View/Category/*.h"
+            },
+            {
+              "name": "Control",
+              "exclude_files": [
+                "Base/Tool/FBEncryptorAES/FBEncryptorAES.m",
+                "Base/Tool/FBEncryptorAES/NSData+Base64.m",
+                "Base/Tool/FBEncryptorAES/FBEncryptorAES.h",
+                "Base/Tool/FBEncryptorAES/NSData+Base64.h",
+                "Base/View/Control/SvGifView.h",
+                "Base/View/Control/SvGifView.m"
+              ],
+              "source_files": [
+                "Base/View/Control/*.{h,m,swift}",
+                "Base/View/Control/Progress/*.{h,m,swift}",
+                "Base/View/Control/Tip/*.{h,m,swift}",
+                "Base/View/Control/Avater/*.{h,m,swift}"
+              ],
+              "public_header_files": [
+                "Base/View/Control/*.h",
+                "Base/View/Control/Progress/*.{h}",
+                "Base/View/Control/Tip/*.h",
+                "Base/View/Control/Avater/*.h"
+              ]
+            },
+            {
+              "name": "Swift",
+              "source_files": "Base/View/Swift/*.{h,m,swift}",
+              "public_header_files": "Base/View/Swift/*.h"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ZSSQ",
+      "dependencies": {
+        "AlicloudHTTPDNS": [
+          "1.19.2.7"
+        ],
+        "BaseModule/Base": [
+
+        ]
+      },
+      "subspecs": [
+        {
+          "name": "Model",
+          "source_files": "ZSSQ/Model/*.{h,m,swift}",
+          "public_header_files": "ZSSQ/Model/*.h"
+        },
+        {
+          "name": "Define",
+          "source_files": "ZSSQ/Define/*.{h,m,swift}",
+          "public_header_files": "ZSSQ/Define/*.h"
+        },
+        {
+          "name": "OnlineParams",
+          "source_files": "ZSSQ/OnlineParams/*.{h,m,swift}",
+          "public_header_files": "ZSSQ/OnlineParams/*.h"
+        }
+      ]
+    },
+    {
+      "name": "FTZS",
+      "dependencies": {
+        "AlicloudHTTPDNS": [
+          "1.19.2.7"
+        ],
+        "BaseModule/Base": [
+
+        ]
+      },
+      "subspecs": [
+        {
+          "name": "Define",
+          "source_files": "FTZS/Define/*.{h,m,swift}",
+          "public_header_files": "FTZS/Define/*.h"
+        },
+        {
+          "name": "OnlineParams",
+          "source_files": "FTZS/OnlineParams/*.{h,m,swift}",
+          "public_header_files": "FTZS/OnlineParams/*.h"
+        }
+      ]
+    },
+    {
+      "name": "TTYY",
+      "dependencies": {
+        "BaseModule/Base": [
+
+        ]
+      },
+      "subspecs": [
+        {
+          "name": "Define",
+          "source_files": "FTZS/Define/*.{h,m,swift}",
+          "public_header_files": "FTZS/Define/*.h"
+        }
+      ]
+    }
+  ]
+}

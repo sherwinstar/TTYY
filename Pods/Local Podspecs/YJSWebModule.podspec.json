@@ -1,0 +1,44 @@
+{
+  "name": "YJSWebModule",
+  "version": "4.25.0",
+  "summary": "YouShaQi WebModule",
+  "description": "YouShaQi WebModule",
+  "homepage": "http://WebModule",
+  "license": "MIT",
+  "authors": {
+    "tangjj": "tangjj@1391.com"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "pod_target_xcconfig": {
+    "SWIFT_COMPILATION_MODE": "wholemodule"
+  },
+  "source": {
+    "git": "https://gitlab.ushaqi.com/iOS/YJSWebModule.git",
+    "tag": "4.25.0"
+  },
+  "source_files": "YJSWebModule/Web/*.{swift}",
+  "dependencies": {
+    "BaseModule/Base": [
+
+    ],
+    "YJShareSDK": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "WebContent",
+      "source_files": "YJSWebModule/Web/WebContent/*.{swift}"
+    },
+    {
+      "name": "WebUI",
+      "source_files": "YJSWebModule/Web/WebUI/*.{swift}"
+    },
+    {
+      "name": "Extension",
+      "source_files": "YJSWebModule/Web/Extension/*.{swift}"
+    }
+  ]
+}

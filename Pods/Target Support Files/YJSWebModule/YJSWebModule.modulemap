@@ -1,0 +1,6 @@
+framework module YJSWebModule {
+  umbrella header "YJSWebModule-umbrella.h"
+
+  export *
+  module * { export * }
+}
